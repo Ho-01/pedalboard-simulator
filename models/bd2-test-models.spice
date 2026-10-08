@@ -1,0 +1,23 @@
+* Research models: datasheet targets plus explicitly provisional parameters.
+* Not manufacturer SPICE models. Not hardware-validated BD-2 sound.
+.model Q_2SC2458GR_TEST NPN (IS=6e-15 BF=300 VAF=80 IKF=0.15 ISE=2e-14 NE=1.5 BR=4 RB=100 RC=1 RE=0.5 CJE=12p CJC=7.7p VJE=0.75 VJC=0.75 MJE=0.33 MJC=0.33 TF=1.5n TR=100n)
+.model Q_2SC2459GR_TEST NPN (IS=6e-15 BF=300 VAF=100 IKF=0.15 ISE=2e-14 NE=1.5 BR=4 RB=100 RC=1 RE=0.5 CJE=10p CJC=5.2p VJE=0.75 VJC=0.75 MJE=0.33 MJC=0.33 TF=0.7n TR=100n)
+.model Q_2SA1049GR_TEST PNP (IS=6e-15 BF=300 VAF=80 IKF=0.15 ISE=2e-14 NE=1.5 BR=4 RB=100 RC=1 RE=0.5 CJE=12p CJC=7.7p VJE=0.75 VJC=0.75 MJE=0.33 MJC=0.33 TF=1.5n TR=100n)
+.model J_2SK184GR_TEST NJF (VTO=-0.6 BETA=0.0125 LAMBDA=0.001 RD=5 RS=5 IS=1e-14 CGS=10p CGD=9.95p PB=1)
+.model J_2SK118Y_TEST NJF (VTO=-2.8 BETA=0.000267857 LAMBDA=0.001 RD=10 RS=10 IS=1e-14 CGS=5.6p CGD=8.62p PB=1)
+.model D_1SS133_TEST D (IS=3e-9 N=1.75 RS=0.8 CJO=1p VJ=0.7 M=0.33 TT=1.5n BV=80 IBV=0.5u)
+.model D_S5688G_TEST D (IS=10n N=1.8 RS=0.5 CJO=15p BV=80 IBV=1u)
+.model D_RD56EB3_TEST D (IS=2n N=1.8 RS=20 BV=5.6 IBV=5m CJO=80p)
+.model D_LN28RP_TEST D (IS=1e-20 N=1.8 RS=10 CJO=20p BV=5 IBV=1u)
+.subckt M5218AL_TEST inp inn vp vn out
+Bmid mid 0 V=(v(vp)+v(vn))/2
+Rinput inp inn 5meg
+Ibiasp inp vn 500n
+Ibiasn inn vn 500n
+Bgm pole mid I=-0.003*tanh((v(inp,inn)+0.0005)*14.660766)
+Rpole pole mid 7.19029meg
+Cpole pole mid 1n
+Bdrive drive 0 V=min(max(v(pole),v(vn)+1),v(vp)-1)
+Bout out 0 I=0.05*tanh((v(out)-v(drive))/2.5)
+Iquiescent vp vn 1m
+.ends M5218AL_TEST

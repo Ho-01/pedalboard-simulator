@@ -1,0 +1,9 @@
+{
+  "engine": "ngspice",
+  "version": "47",
+  "sourceCommit": "a80f6e3e95d51534905b1f23410a951802666656",
+  "emscripten": "4.0.21",
+  "js": "/engine/pending/ngspice.mjs",
+  "wasm": "/engine/pending/ngspice.wasm",
+  "verification": "pending"
+}

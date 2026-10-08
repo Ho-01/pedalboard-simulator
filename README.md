@@ -1,34 +1,48 @@
-# Pedalboard Simulator
+# Pedal Lab
 
-작업 공간에 실물 페달과 페달보드 프레임을 배치하고, 부품·배선을 기반으로 실제 회로를 계산해 파형과 소리를 확인하는 웹 프로젝트.
+BD-2 한 개를 작업 공간에 놓고 회로 계산 결과를 듣는 첫 구현이다.
 
-저장소: https://github.com/Ho-01/pedalboard-simulator
+- [사이트](https://pedal.34-59-139-83.sslip.io)
+- [문서 목차](docs/README.md)
+- [실제 구현 경계](docs/04-architecture/implementation.md)
+- [부품 모델 근거와 한계](models/README.md)
+- [회로 전사와 검증](testbench/README.md)
+- [배포/롤백](docs/05-operations/deployment.md)
 
-## 현재 상태
+## 시작
 
-2026-10-08: 문서 초안 작성 및 사용자 검토 요청. 애플리케이션 코드와 배포 설정은 아직 구현하지 않았다.
+Node 22 이상에서:
 
-첫 목표는 **Git 및 원격 서버 배포 기반**, 그다음은 **BOSS BD-2의 회로 검증과 한 기종의 배치·조절·데모 재생**이다. 작은 단위로 계획을 검토하고 구현한다. 이후 프레임 배치, 페달 연결, 회로 편집을 확장한다.
+```bash
+npm ci
+npm run dev
+```
 
-## 먼저 읽을 문서
+페달을 추가한 뒤 드래그로 이동하고 숫자/슬라이더로 Gain, Tone, Level을 조절한다. 확대 사진의 풋스위치 또는 ON/OFF 버튼으로 상태를 바꾼다. 계산·재생은 8초 합성 기타 입력의 회로 응답을 먼저 구한 뒤 반복 재생한다. 최초 재생 전에는 무음이며 기본 monitor volume은 20%다.
 
-1. [문서 안내](docs/README.md)
-2. [개발 및 리뷰 절차](docs/00-guide/development-workflow.md)
-3. [Git·배포 기반 plan](docs/01-plan/26-10-08.repository-and-deployment.plan.md)
-4. [BD-2 회로 시뮬레이션 상세 plan](docs/01-plan/26-10-08.bd2-circuit-simulation.plan.md)
-5. [BD-2 1차 화면·청취 plan](docs/01-plan/26-10-08.bd2-mvp.plan.md)
-6. [용어 및 데이터 구조](docs/04-architecture/domain-model.md)
+## 구현
 
-## 제품의 기준
+React/TypeScript/Vite static app, Component/Pin/Net 기반 CircuitDocument, ngspice 47 native/WASM, Worker 계산, 192 kHz 최대 timestep + 보간/FIR + 48 kHz PCM, Web Audio playback을 사용한다. 사진은 BOSS 공식 실물 자료다. 작업 공간 좌표와 전기 연결은 분리돼 있다.
 
-그리드 바탕은 **작업 공간(Workspace)**이다. 그 위에 놓이는 **페달보드 프레임**, **페달**, **패치 케이블**은 별개의 객체다. 화면 위치와 전기적 연결은 별도로 관리한다.
+OFF는 BD-2 buffer bypass 회로를 계산한다. 삭제된 빈 작업 공간은 source/load 직결 데모다. 노브 변경은 이전 job을 취소하며 사진의 요청 값과 현재 소리의 적용 값을 구분한다.
 
-오디오는 회로의 부품 모델과 연결에서 계산한다. 노브는 실제 가변저항을 바꾸고, 회로 내부의 전압·전류를 파형으로 관찰할 수 있도록 설계한다. 회로가 검증되었다는 상태와 실물 측정으로 음색을 검증했다는 상태는 구분한다.
+**현재 부품 모델은 데이터시트 목표와 미측정 시험 파라미터를 포함하며 실물 BD-2 음색 일치는 검증하지 않았다.** 독립 schematic audit 및 Q3 자료 불일치 확인도 남아 있다. 수치 일치 결과를 물리 정확도 인증으로 표시하지 않는다.
 
-## 개발 원칙
+## 검증
 
-**plan 작성 → 사용자 검토 및 승인 → 개발 → 검증 → report 작성 → 코드 리뷰**
+```bash
+npm test
+npm run typecheck
+npm run build
+NGSPICE_NATIVE=/path/to/ngspice npm run simulate:verify
+npm run dev
+npm run test:browser
+```
 
-기능 개발 전에 `docs/01-plan/<YY-MM-DD>.<feature>.plan.md`를 작성한다. 완료 후 같은 날짜·feature 식별자의 report를 `docs/02-report/`에 작성한다. report에서 계획과 일치한 항목은 ID만 나열하고, 달라진 내용과 이유·잔여 작업을 상세히 기록한다.
+native engine build: scripts/build-engine.sh. 검증 결과: simulation/evidence. Safari/iOS/Edge 실기기는 확인한 환경으로 보고하기 전까지 미검증이다.
 
-참고 서비스: [Pedal Playground](https://pedalplayground.com/), [Solder](https://solder.lukevers.com/). 사용자 경험을 참고하며 이 프로젝트의 코드는 독립적으로 작성한다.
+## 개발 순서
+
+docs/01-plan/<YY-MM-DD>.<feature>.plan.md 작성 → 사용자 리뷰/승인 → 구현 → docs/02-report/<YY-MM-DD>.<feature>.report.md.
+
+report는 plan과 일치하는 ID 목록만 간단히 남기고 차이/추가/사유/미수행 항목을 자세히 기록한다. 프레임/여러 페달/연결선/직접 회로 편집/실시간 연속 계산은 다음 plan에서 하나씩 확장한다.

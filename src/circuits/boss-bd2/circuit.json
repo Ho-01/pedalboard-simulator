@@ -1,0 +1,3025 @@
+{
+  "schemaVersion": 1,
+  "id": "boss-bd2-1995",
+  "revision": "1995-errata1996-transcription-v1",
+  "components": [
+    {
+      "id": "r1",
+      "refdes": "R1",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_ac"
+        },
+        {
+          "id": "2",
+          "net": "output"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R1",
+      "confidence": "transcribed",
+      "value": 1000.0
+    },
+    {
+      "id": "r2",
+      "refdes": "R2",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_emitter"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R2",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r3",
+      "refdes": "R3",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_ac"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R3",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r4",
+      "refdes": "R4",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "reference_input"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R4",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r5",
+      "refdes": "R5",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "reference_input"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R5",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r6",
+      "refdes": "R6",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v9"
+        },
+        {
+          "id": "2",
+          "net": "power_base"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R6",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r7",
+      "refdes": "R7",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_base"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R7",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r8",
+      "refdes": "R8",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_mix"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R8",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r9",
+      "refdes": "R9",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_minus"
+        },
+        {
+          "id": "2",
+          "net": "amp_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R9",
+      "confidence": "transcribed",
+      "value": 6800
+    },
+    {
+      "id": "r10",
+      "refdes": "R10",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "eq_base"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R10",
+      "confidence": "transcribed",
+      "value": 470000
+    },
+    {
+      "id": "r11",
+      "refdes": "R11",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_out"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R11",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r12",
+      "refdes": "R12",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_buffer"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R12",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r13",
+      "refdes": "R13",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_plus"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R13",
+      "confidence": "transcribed",
+      "value": 470000
+    },
+    {
+      "id": "r14",
+      "refdes": "R14",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_in"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R14",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r15",
+      "refdes": "R15",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input_base"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R15",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "r16",
+      "refdes": "R16",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_base"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R16",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r17",
+      "refdes": "R17",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_in"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R17",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r18",
+      "refdes": "R18",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input_buffer"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R18",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r19",
+      "refdes": "R19",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input"
+        },
+        {
+          "id": "2",
+          "net": "input_coupling"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R19",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r20",
+      "refdes": "R20",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "post_buffer"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R20",
+      "confidence": "transcribed",
+      "value": 10000.0
+    },
+    {
+      "id": "r21",
+      "refdes": "R21",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "eq_middle"
+        },
+        {
+          "id": "2",
+          "net": "post_buffer"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R21",
+      "confidence": "transcribed",
+      "value": 1200
+    },
+    {
+      "id": "r22",
+      "refdes": "R22",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_switched"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R22",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r23",
+      "refdes": "R23",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_in"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R23",
+      "confidence": "transcribed",
+      "value": 220000
+    },
+    {
+      "id": "r25",
+      "refdes": "R25",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_out"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R25",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r26",
+      "refdes": "R26",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_out"
+        },
+        {
+          "id": "2",
+          "net": "tone_feed"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R26",
+      "confidence": "transcribed",
+      "value": 5600
+    },
+    {
+      "id": "r27",
+      "refdes": "R27",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_feedback"
+        },
+        {
+          "id": "2",
+          "net": "gain2_pot"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R27",
+      "confidence": "transcribed",
+      "value": 33000
+    },
+    {
+      "id": "r28",
+      "refdes": "R28",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_tail"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R28",
+      "confidence": "transcribed",
+      "value": 4700
+    },
+    {
+      "id": "r29",
+      "refdes": "R29",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_feedback"
+        },
+        {
+          "id": "2",
+          "net": "gain1_pot"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R29",
+      "confidence": "transcribed",
+      "value": 22000
+    },
+    {
+      "id": "r30",
+      "refdes": "R30",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_tail"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R30",
+      "confidence": "transcribed",
+      "value": 4700
+    },
+    {
+      "id": "r31",
+      "refdes": "R31",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_source2"
+        },
+        {
+          "id": "2",
+          "net": "gain1_tail"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R31",
+      "confidence": "transcribed",
+      "value": 1500
+    },
+    {
+      "id": "r32",
+      "refdes": "R32",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_out"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R32",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r33",
+      "refdes": "R33",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "gain2_drain"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R33",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r34",
+      "refdes": "R34",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_source2"
+        },
+        {
+          "id": "2",
+          "net": "gain2_tail"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R34",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r35",
+      "refdes": "R35",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_in"
+        },
+        {
+          "id": "2",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R35",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "r36",
+      "refdes": "R36",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_out"
+        },
+        {
+          "id": "2",
+          "net": "shape_low"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R36",
+      "confidence": "transcribed",
+      "value": 100000
+    },
+    {
+      "id": "r37",
+      "refdes": "R37",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "shape_high"
+        },
+        {
+          "id": "2",
+          "net": "clip"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R37",
+      "confidence": "transcribed",
+      "value": 330000
+    },
+    {
+      "id": "r38",
+      "refdes": "R38",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "gain1_drain"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R38",
+      "confidence": "transcribed",
+      "value": 2200
+    },
+    {
+      "id": "r39",
+      "refdes": "R39",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "led_cathode"
+        },
+        {
+          "id": "2",
+          "net": "zener_cathode"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R39",
+      "confidence": "transcribed",
+      "value": 1200
+    },
+    {
+      "id": "r40",
+      "refdes": "R40",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "latch_right"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R40",
+      "confidence": "transcribed",
+      "value": 56000
+    },
+    {
+      "id": "r41",
+      "refdes": "R41",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_left"
+        },
+        {
+          "id": "2",
+          "net": "effect_control"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R41",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "r42",
+      "refdes": "R42",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "foot_rc"
+        },
+        {
+          "id": "2",
+          "net": "foot_contact"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R42",
+      "confidence": "transcribed",
+      "value": 100
+    },
+    {
+      "id": "r43",
+      "refdes": "R43",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "latch_left"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R43",
+      "confidence": "transcribed",
+      "value": 56000
+    },
+    {
+      "id": "r44",
+      "refdes": "R44",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_right"
+        },
+        {
+          "id": "2",
+          "net": "latch_base_left"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R44",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r45",
+      "refdes": "R45",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_base_left"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R45",
+      "confidence": "transcribed",
+      "value": 56000
+    },
+    {
+      "id": "r46",
+      "refdes": "R46",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "foot_rc"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R46",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "r47",
+      "refdes": "R47",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_left"
+        },
+        {
+          "id": "2",
+          "net": "latch_base_right"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R47",
+      "confidence": "transcribed",
+      "value": 100000.0
+    },
+    {
+      "id": "r48",
+      "refdes": "R48",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_base_right"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R48",
+      "confidence": "transcribed",
+      "value": 56000
+    },
+    {
+      "id": "r50",
+      "refdes": "R50",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "clip"
+        },
+        {
+          "id": "2",
+          "net": "shape_bottom"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R50",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "r51",
+      "refdes": "R51",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "shape_bottom"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R51",
+      "confidence": "transcribed",
+      "value": 15000
+    },
+    {
+      "id": "r52",
+      "refdes": "R52",
+      "kind": "R",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_right"
+        },
+        {
+          "id": "2",
+          "net": "bypass_control"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:R52",
+      "confidence": "transcribed",
+      "value": 1000000.0
+    },
+    {
+      "id": "c1",
+      "refdes": "C1",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_emitter"
+        },
+        {
+          "id": "2",
+          "net": "output_ac"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C1",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c2",
+      "refdes": "C2",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "reference_input"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C2",
+      "confidence": "transcribed",
+      "value": 4.7e-05
+    },
+    {
+      "id": "c3",
+      "refdes": "C3",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v9"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C3",
+      "confidence": "transcribed",
+      "value": 0.0001
+    },
+    {
+      "id": "c4",
+      "refdes": "C4",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "power_base"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C4",
+      "confidence": "transcribed",
+      "value": 4.7e-05
+    },
+    {
+      "id": "c5",
+      "refdes": "C5",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C5",
+      "confidence": "transcribed",
+      "value": 0.0001
+    },
+    {
+      "id": "c6",
+      "refdes": "C6",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_minus"
+        },
+        {
+          "id": "2",
+          "net": "amp_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C6",
+      "confidence": "transcribed",
+      "value": 2.2e-09
+    },
+    {
+      "id": "c7",
+      "refdes": "C7",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_out"
+        },
+        {
+          "id": "2",
+          "net": "effect_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C7",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c8",
+      "refdes": "C8",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "output_mix"
+        },
+        {
+          "id": "2",
+          "net": "output_base"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C8",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c9",
+      "refdes": "C9",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "eq_middle"
+        },
+        {
+          "id": "2",
+          "net": "amp_minus"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C9",
+      "confidence": "transcribed",
+      "value": 5.6e-08
+    },
+    {
+      "id": "c10",
+      "refdes": "C10",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "level_wiper"
+        },
+        {
+          "id": "2",
+          "net": "amp_plus"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C10",
+      "confidence": "transcribed",
+      "value": 4.7e-08
+    },
+    {
+      "id": "c11",
+      "refdes": "C11",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "vb"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C11",
+      "confidence": "transcribed",
+      "value": 4.7e-05
+    },
+    {
+      "id": "c12",
+      "refdes": "C12",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_buffer"
+        },
+        {
+          "id": "2",
+          "net": "bypass_in"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C12",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c13",
+      "refdes": "C13",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input_buffer"
+        },
+        {
+          "id": "2",
+          "net": "bypass_base"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C13",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c14",
+      "refdes": "C14",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input_coupling"
+        },
+        {
+          "id": "2",
+          "net": "input_base"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C14",
+      "confidence": "transcribed",
+      "value": 4.7e-08
+    },
+    {
+      "id": "c15",
+      "refdes": "C15",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "input_buffer"
+        },
+        {
+          "id": "2",
+          "net": "effect_in"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C15",
+      "confidence": "transcribed",
+      "value": 1e-05
+    },
+    {
+      "id": "c16",
+      "refdes": "C16",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "eq_base"
+        },
+        {
+          "id": "2",
+          "net": "eq_middle"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C16",
+      "confidence": "transcribed",
+      "value": 5.6e-08
+    },
+    {
+      "id": "c17",
+      "refdes": "C17",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_out"
+        },
+        {
+          "id": "2",
+          "net": "tone_feed"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C17",
+      "confidence": "transcribed",
+      "value": 5.6e-09
+    },
+    {
+      "id": "c18",
+      "refdes": "C18",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_switched"
+        },
+        {
+          "id": "2",
+          "net": "gain1_in"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C18",
+      "confidence": "transcribed",
+      "value": 1e-07
+    },
+    {
+      "id": "c19",
+      "refdes": "C19",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "tone_feed"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C19",
+      "confidence": "transcribed",
+      "value": 5.6e-09
+    },
+    {
+      "id": "c20",
+      "refdes": "C20",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_drain"
+        },
+        {
+          "id": "2",
+          "net": "gain2_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C20",
+      "confidence": "transcribed",
+      "value": 1e-10
+    },
+    {
+      "id": "c21",
+      "refdes": "C21",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_drain"
+        },
+        {
+          "id": "2",
+          "net": "gain1_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C21",
+      "confidence": "transcribed",
+      "value": 4.7e-11
+    },
+    {
+      "id": "c22",
+      "refdes": "C22",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_feedback"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C22",
+      "confidence": "transcribed",
+      "value": 1.5e-07
+    },
+    {
+      "id": "c23",
+      "refdes": "C23",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_feedback"
+        },
+        {
+          "id": "2",
+          "net": "gain1_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C23",
+      "confidence": "transcribed",
+      "value": 4.7e-11
+    },
+    {
+      "id": "c24",
+      "refdes": "C24",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_feedback"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C24",
+      "confidence": "transcribed",
+      "value": 1e-06
+    },
+    {
+      "id": "c25",
+      "refdes": "C25",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_feedback"
+        },
+        {
+          "id": "2",
+          "net": "gain2_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C25",
+      "confidence": "transcribed",
+      "value": 1e-10
+    },
+    {
+      "id": "c26",
+      "refdes": "C26",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_out"
+        },
+        {
+          "id": "2",
+          "net": "shape_high"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C26",
+      "confidence": "transcribed",
+      "value": 2.2e-10
+    },
+    {
+      "id": "c27",
+      "refdes": "C27",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "clip"
+        },
+        {
+          "id": "2",
+          "net": "gain2_in"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C27",
+      "confidence": "transcribed",
+      "value": 2.2e-09
+    },
+    {
+      "id": "c28",
+      "refdes": "C28",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_right"
+        },
+        {
+          "id": "2",
+          "net": "latch_base_left"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C28",
+      "confidence": "transcribed",
+      "value": 4.7e-10
+    },
+    {
+      "id": "c29",
+      "refdes": "C29",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_control"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C29",
+      "confidence": "transcribed",
+      "value": 4.7e-08
+    },
+    {
+      "id": "c30",
+      "refdes": "C30",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_base_left"
+        },
+        {
+          "id": "2",
+          "net": "foot_rc"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C30",
+      "confidence": "transcribed",
+      "value": 2.2e-10
+    },
+    {
+      "id": "c31",
+      "refdes": "C31",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_left"
+        },
+        {
+          "id": "2",
+          "net": "latch_base_right"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C31",
+      "confidence": "transcribed",
+      "value": 4.7e-10
+    },
+    {
+      "id": "c32",
+      "refdes": "C32",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_base_right"
+        },
+        {
+          "id": "2",
+          "net": "foot_rc"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C32",
+      "confidence": "transcribed",
+      "value": 2.2e-10
+    },
+    {
+      "id": "c33",
+      "refdes": "C33",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "foot_rc"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C33",
+      "confidence": "transcribed",
+      "value": 1e-08
+    },
+    {
+      "id": "c34",
+      "refdes": "C34",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "shape_low"
+        },
+        {
+          "id": "2",
+          "net": "clip"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C34",
+      "confidence": "transcribed",
+      "value": 1e-07
+    },
+    {
+      "id": "c35",
+      "refdes": "C35",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "shape_low"
+        },
+        {
+          "id": "2",
+          "net": "shape_bottom"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C35",
+      "confidence": "transcribed",
+      "value": 4.7e-08
+    },
+    {
+      "id": "c36",
+      "refdes": "C36",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_control"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C36",
+      "confidence": "transcribed",
+      "value": 4.7e-08
+    },
+    {
+      "id": "c100",
+      "refdes": "C100",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "tone_feed"
+        },
+        {
+          "id": "2",
+          "net": "tone_high"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C100",
+      "confidence": "transcribed",
+      "value": 1.8e-08
+    },
+    {
+      "id": "c101",
+      "refdes": "C101",
+      "kind": "C",
+      "pins": [
+        {
+          "id": "1",
+          "net": "tone_low"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:C101",
+      "confidence": "transcribed",
+      "value": 1.8e-08
+    },
+    {
+      "id": "d1",
+      "refdes": "D1",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_plus"
+        },
+        {
+          "id": "2",
+          "net": "amp_minus"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D1",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d3",
+      "refdes": "D3",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "amp_minus"
+        },
+        {
+          "id": "2",
+          "net": "amp_plus"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D3",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d4",
+      "refdes": "D4",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_gate_out"
+        },
+        {
+          "id": "2",
+          "net": "effect_control"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D4",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d5",
+      "refdes": "D5",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "effect_gate_in"
+        },
+        {
+          "id": "2",
+          "net": "effect_control"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D5",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d6",
+      "refdes": "D6",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "bypass_gate"
+        },
+        {
+          "id": "2",
+          "net": "bypass_control"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D6",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d7",
+      "refdes": "D7",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "clip"
+        },
+        {
+          "id": "2",
+          "net": "clip_positive"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D7",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d8",
+      "refdes": "D8",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "clip_positive"
+        },
+        {
+          "id": "2",
+          "net": "0"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D8",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d9",
+      "refdes": "D9",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "clip_negative"
+        },
+        {
+          "id": "2",
+          "net": "clip"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D9",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d10",
+      "refdes": "D10",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "0"
+        },
+        {
+          "id": "2",
+          "net": "clip_negative"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D10",
+      "confidence": "transcribed",
+      "modelRef": "D_1SS133_TEST"
+    },
+    {
+      "id": "d2",
+      "refdes": "D2",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "0"
+        },
+        {
+          "id": "2",
+          "net": "v9"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D2",
+      "confidence": "transcribed",
+      "modelRef": "D_S5688G_TEST"
+    },
+    {
+      "id": "d11",
+      "refdes": "D11",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "latch_right"
+        },
+        {
+          "id": "2",
+          "net": "zener_cathode"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:D11",
+      "confidence": "transcribed",
+      "modelRef": "D_RD56EB3_TEST"
+    },
+    {
+      "id": "ld1",
+      "refdes": "LD1",
+      "kind": "D",
+      "pins": [
+        {
+          "id": "1",
+          "net": "v8"
+        },
+        {
+          "id": "2",
+          "net": "led_cathode"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:LD1",
+      "confidence": "transcribed",
+      "modelRef": "D_LN28RP_TEST"
+    },
+    {
+      "id": "q1",
+      "refdes": "Q1",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "v8",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "output_base",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "output_emitter",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q1",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2459GR_TEST"
+    },
+    {
+      "id": "q2",
+      "refdes": "Q2",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "v9",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "power_base",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "v8",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q2",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2458GR_TEST"
+    },
+    {
+      "id": "q3",
+      "refdes": "Q3",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "v8",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "bypass_base",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "bypass_buffer",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q3",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2459GR_TEST",
+      "note": "서비스 부품표의 2SK184GR과 회로도의 NPN 표기 불일치. 회로도 기준 시험 구현. 실물/독립 audit 전 확정 금지."
+    },
+    {
+      "id": "q5",
+      "refdes": "Q5",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "v8",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "input_base",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "input_buffer",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q5",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2459GR_TEST"
+    },
+    {
+      "id": "q7",
+      "refdes": "Q7",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "v8",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "eq_base",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "post_buffer",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q7",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2459GR_TEST"
+    },
+    {
+      "id": "q9",
+      "refdes": "Q9",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "gain1_out",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "gain1_drain",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "v8",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q9",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SA1049GR_TEST"
+    },
+    {
+      "id": "q12",
+      "refdes": "Q12",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "gain2_out",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "gain2_drain",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "v8",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q12",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SA1049GR_TEST"
+    },
+    {
+      "id": "q15",
+      "refdes": "Q15",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "latch_left",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "latch_base_left",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "0",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q15",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2458GR_TEST"
+    },
+    {
+      "id": "q16",
+      "refdes": "Q16",
+      "kind": "Q",
+      "pins": [
+        {
+          "id": "C",
+          "net": "latch_right",
+          "packagePin": "2"
+        },
+        {
+          "id": "B",
+          "net": "latch_base_right",
+          "packagePin": "3"
+        },
+        {
+          "id": "E",
+          "net": "0",
+          "packagePin": "1"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q16",
+      "confidence": "transcribed",
+      "modelRef": "Q_2SC2458GR_TEST"
+    },
+    {
+      "id": "q4",
+      "refdes": "Q4",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "effect_out",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "effect_gate_out",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "output_mix",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q4",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK118Y_TEST"
+    },
+    {
+      "id": "q6",
+      "refdes": "Q6",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "effect_in",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "effect_gate_in",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "effect_switched",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q6",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK118Y_TEST"
+    },
+    {
+      "id": "q8",
+      "refdes": "Q8",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "bypass_in",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "bypass_gate",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "output_mix",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q8",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK118Y_TEST"
+    },
+    {
+      "id": "q10",
+      "refdes": "Q10",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "gain1_drain",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "gain1_in",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "gain1_tail",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q10",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK184GR_TEST"
+    },
+    {
+      "id": "q11",
+      "refdes": "Q11",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "v8",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "gain1_feedback",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "gain1_source2",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q11",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK184GR_TEST"
+    },
+    {
+      "id": "q13",
+      "refdes": "Q13",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "v8",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "gain2_feedback",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "gain2_source2",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q13",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK184GR_TEST"
+    },
+    {
+      "id": "q14",
+      "refdes": "Q14",
+      "kind": "J",
+      "pins": [
+        {
+          "id": "D",
+          "net": "gain2_drain",
+          "packagePin": "1"
+        },
+        {
+          "id": "G",
+          "net": "gain2_in",
+          "packagePin": "2"
+        },
+        {
+          "id": "S",
+          "net": "gain2_tail",
+          "packagePin": "3"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:Q14",
+      "confidence": "transcribed",
+      "modelRef": "J_2SK184GR_TEST"
+    },
+    {
+      "id": "ic1a",
+      "refdes": "IC1A",
+      "kind": "X",
+      "pins": [
+        {
+          "id": "IN+",
+          "net": "reference_input"
+        },
+        {
+          "id": "IN-",
+          "net": "vb"
+        },
+        {
+          "id": "V+",
+          "net": "v8"
+        },
+        {
+          "id": "V-",
+          "net": "0"
+        },
+        {
+          "id": "OUT",
+          "net": "vb"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:IC1A",
+      "confidence": "transcribed",
+      "modelRef": "M5218AL_TEST"
+    },
+    {
+      "id": "ic1b",
+      "refdes": "IC1B",
+      "kind": "X",
+      "pins": [
+        {
+          "id": "IN+",
+          "net": "amp_plus"
+        },
+        {
+          "id": "IN-",
+          "net": "amp_minus"
+        },
+        {
+          "id": "V+",
+          "net": "v8"
+        },
+        {
+          "id": "V-",
+          "net": "0"
+        },
+        {
+          "id": "OUT",
+          "net": "amp_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:IC1B",
+      "confidence": "transcribed",
+      "modelRef": "M5218AL_TEST"
+    },
+    {
+      "id": "vr1a",
+      "refdes": "VR1A",
+      "kind": "POT",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain1_pot"
+        },
+        {
+          "id": "2",
+          "net": "gain1_out"
+        },
+        {
+          "id": "3",
+          "net": "gain1_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:VR1A",
+      "confidence": "transcribed",
+      "value": 250000,
+      "control": "gain",
+      "taper": "audio15-provisional"
+    },
+    {
+      "id": "vr1b",
+      "refdes": "VR1B",
+      "kind": "POT",
+      "pins": [
+        {
+          "id": "1",
+          "net": "gain2_pot"
+        },
+        {
+          "id": "2",
+          "net": "gain2_out"
+        },
+        {
+          "id": "3",
+          "net": "gain2_out"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:VR1B",
+      "confidence": "transcribed",
+      "value": 250000,
+      "control": "gain",
+      "taper": "audio15-provisional"
+    },
+    {
+      "id": "vr2",
+      "refdes": "VR2",
+      "kind": "POT",
+      "pins": [
+        {
+          "id": "1",
+          "net": "tone_low"
+        },
+        {
+          "id": "2",
+          "net": "tone_wiper"
+        },
+        {
+          "id": "3",
+          "net": "tone_high"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:VR2",
+      "confidence": "transcribed",
+      "value": 10000,
+      "control": "tone",
+      "taper": "linear"
+    },
+    {
+      "id": "vr3",
+      "refdes": "VR3",
+      "kind": "POT",
+      "pins": [
+        {
+          "id": "1",
+          "net": "0"
+        },
+        {
+          "id": "2",
+          "net": "level_wiper"
+        },
+        {
+          "id": "3",
+          "net": "tone_wiper"
+        }
+      ],
+      "sourceRef": "boss-service-1995:p3:VR3",
+      "confidence": "transcribed",
+      "value": 100000,
+      "control": "level",
+      "taper": "audio15-provisional"
+    }
+  ],
+  "nets": [
+    {
+      "id": "output_ac",
+      "pins": [
+        "r1.1",
+        "r3.1",
+        "c1.2"
+      ]
+    },
+    {
+      "id": "output",
+      "pins": [
+        "r1.2"
+      ]
+    },
+    {
+      "id": "output_emitter",
+      "pins": [
+        "r2.1",
+        "c1.1",
+        "q1.E"
+      ]
+    },
+    {
+      "id": "0",
+      "pins": [
+        "r2.2",
+        "r3.2",
+        "r4.2",
+        "r12.2",
+        "r18.2",
+        "r20.2",
+        "r25.2",
+        "r28.2",
+        "r30.2",
+        "r32.2",
+        "r45.2",
+        "r48.2",
+        "r51.2",
+        "c2.2",
+        "c3.2",
+        "c4.2",
+        "c5.2",
+        "c11.2",
+        "c19.2",
+        "c22.2",
+        "c24.2",
+        "c29.2",
+        "c33.2",
+        "c36.2",
+        "c101.2",
+        "d8.2",
+        "d10.1",
+        "d2.1",
+        "q15.E",
+        "q16.E",
+        "ic1a.V-",
+        "ic1b.V-",
+        "vr3.1"
+      ]
+    },
+    {
+      "id": "reference_input",
+      "pins": [
+        "r4.1",
+        "r5.2",
+        "c2.1",
+        "ic1a.IN+"
+      ]
+    },
+    {
+      "id": "v8",
+      "pins": [
+        "r5.1",
+        "r33.1",
+        "r38.1",
+        "r40.1",
+        "r43.1",
+        "r46.1",
+        "c5.1",
+        "ld1.1",
+        "q1.C",
+        "q2.E",
+        "q3.C",
+        "q5.C",
+        "q7.C",
+        "q9.E",
+        "q12.E",
+        "q11.D",
+        "q13.D",
+        "ic1a.V+",
+        "ic1b.V+"
+      ]
+    },
+    {
+      "id": "v9",
+      "pins": [
+        "r6.1",
+        "c3.1",
+        "d2.2",
+        "q2.C"
+      ]
+    },
+    {
+      "id": "power_base",
+      "pins": [
+        "r6.2",
+        "c4.1",
+        "q2.B"
+      ]
+    },
+    {
+      "id": "output_base",
+      "pins": [
+        "r7.1",
+        "c8.2",
+        "q1.B"
+      ]
+    },
+    {
+      "id": "vb",
+      "pins": [
+        "r7.2",
+        "r8.2",
+        "r10.2",
+        "r11.2",
+        "r13.2",
+        "r14.2",
+        "r15.2",
+        "r16.2",
+        "r17.2",
+        "r22.2",
+        "r23.2",
+        "r35.2",
+        "c11.1",
+        "ic1a.IN-",
+        "ic1a.OUT"
+      ]
+    },
+    {
+      "id": "output_mix",
+      "pins": [
+        "r8.1",
+        "c8.1",
+        "q4.S",
+        "q8.S"
+      ]
+    },
+    {
+      "id": "amp_minus",
+      "pins": [
+        "r9.1",
+        "c6.1",
+        "c9.2",
+        "d1.2",
+        "d3.1",
+        "ic1b.IN-"
+      ]
+    },
+    {
+      "id": "amp_out",
+      "pins": [
+        "r9.2",
+        "c6.2",
+        "c7.1",
+        "ic1b.OUT"
+      ]
+    },
+    {
+      "id": "eq_base",
+      "pins": [
+        "r10.1",
+        "c16.1",
+        "q7.B"
+      ]
+    },
+    {
+      "id": "effect_out",
+      "pins": [
+        "r11.1",
+        "c7.2",
+        "q4.D"
+      ]
+    },
+    {
+      "id": "bypass_buffer",
+      "pins": [
+        "r12.1",
+        "c12.1",
+        "q3.E"
+      ]
+    },
+    {
+      "id": "amp_plus",
+      "pins": [
+        "r13.1",
+        "c10.2",
+        "d1.1",
+        "d3.2",
+        "ic1b.IN+"
+      ]
+    },
+    {
+      "id": "bypass_in",
+      "pins": [
+        "r14.1",
+        "c12.2",
+        "q8.D"
+      ]
+    },
+    {
+      "id": "input_base",
+      "pins": [
+        "r15.1",
+        "c14.2",
+        "q5.B"
+      ]
+    },
+    {
+      "id": "bypass_base",
+      "pins": [
+        "r16.1",
+        "c13.2",
+        "q3.B"
+      ]
+    },
+    {
+      "id": "effect_in",
+      "pins": [
+        "r17.1",
+        "c15.2",
+        "q6.D"
+      ]
+    },
+    {
+      "id": "input_buffer",
+      "pins": [
+        "r18.1",
+        "c13.1",
+        "c15.1",
+        "q5.E"
+      ]
+    },
+    {
+      "id": "input",
+      "pins": [
+        "r19.1"
+      ]
+    },
+    {
+      "id": "input_coupling",
+      "pins": [
+        "r19.2",
+        "c14.1"
+      ]
+    },
+    {
+      "id": "post_buffer",
+      "pins": [
+        "r20.1",
+        "r21.2",
+        "q7.E"
+      ]
+    },
+    {
+      "id": "eq_middle",
+      "pins": [
+        "r21.1",
+        "c9.1",
+        "c16.2"
+      ]
+    },
+    {
+      "id": "effect_switched",
+      "pins": [
+        "r22.1",
+        "c18.1",
+        "q6.S"
+      ]
+    },
+    {
+      "id": "gain1_in",
+      "pins": [
+        "r23.1",
+        "c18.2",
+        "q10.G"
+      ]
+    },
+    {
+      "id": "gain2_out",
+      "pins": [
+        "r25.1",
+        "r26.1",
+        "c17.1",
+        "c20.2",
+        "c25.2",
+        "q12.C",
+        "vr1b.2",
+        "vr1b.3"
+      ]
+    },
+    {
+      "id": "tone_feed",
+      "pins": [
+        "r26.2",
+        "c17.2",
+        "c19.1",
+        "c100.1"
+      ]
+    },
+    {
+      "id": "gain2_feedback",
+      "pins": [
+        "r27.1",
+        "c24.1",
+        "c25.1",
+        "q13.G"
+      ]
+    },
+    {
+      "id": "gain2_pot",
+      "pins": [
+        "r27.2",
+        "vr1b.1"
+      ]
+    },
+    {
+      "id": "gain2_tail",
+      "pins": [
+        "r28.1",
+        "r34.2",
+        "q14.S"
+      ]
+    },
+    {
+      "id": "gain1_feedback",
+      "pins": [
+        "r29.1",
+        "c22.1",
+        "c23.1",
+        "q11.G"
+      ]
+    },
+    {
+      "id": "gain1_pot",
+      "pins": [
+        "r29.2",
+        "vr1a.1"
+      ]
+    },
+    {
+      "id": "gain1_tail",
+      "pins": [
+        "r30.1",
+        "r31.2",
+        "q10.S"
+      ]
+    },
+    {
+      "id": "gain1_source2",
+      "pins": [
+        "r31.1",
+        "q11.S"
+      ]
+    },
+    {
+      "id": "gain1_out",
+      "pins": [
+        "r32.1",
+        "r36.1",
+        "c21.2",
+        "c23.2",
+        "c26.1",
+        "q9.C",
+        "vr1a.2",
+        "vr1a.3"
+      ]
+    },
+    {
+      "id": "gain2_drain",
+      "pins": [
+        "r33.2",
+        "c20.1",
+        "q12.B",
+        "q14.D"
+      ]
+    },
+    {
+      "id": "gain2_source2",
+      "pins": [
+        "r34.1",
+        "q13.S"
+      ]
+    },
+    {
+      "id": "gain2_in",
+      "pins": [
+        "r35.1",
+        "c27.2",
+        "q14.G"
+      ]
+    },
+    {
+      "id": "shape_low",
+      "pins": [
+        "r36.2",
+        "c34.1",
+        "c35.1"
+      ]
+    },
+    {
+      "id": "shape_high",
+      "pins": [
+        "r37.1",
+        "c26.2"
+      ]
+    },
+    {
+      "id": "clip",
+      "pins": [
+        "r37.2",
+        "r50.1",
+        "c27.1",
+        "c34.2",
+        "d7.1",
+        "d9.2"
+      ]
+    },
+    {
+      "id": "gain1_drain",
+      "pins": [
+        "r38.2",
+        "c21.1",
+        "q9.B",
+        "q10.D"
+      ]
+    },
+    {
+      "id": "led_cathode",
+      "pins": [
+        "r39.1",
+        "ld1.2"
+      ]
+    },
+    {
+      "id": "zener_cathode",
+      "pins": [
+        "r39.2",
+        "d11.2"
+      ]
+    },
+    {
+      "id": "latch_right",
+      "pins": [
+        "r40.2",
+        "r44.1",
+        "r52.1",
+        "c28.1",
+        "d11.1",
+        "q16.C"
+      ]
+    },
+    {
+      "id": "latch_left",
+      "pins": [
+        "r41.1",
+        "r43.2",
+        "r47.1",
+        "c31.1",
+        "q15.C"
+      ]
+    },
+    {
+      "id": "effect_control",
+      "pins": [
+        "r41.2",
+        "c29.1",
+        "d4.2",
+        "d5.2"
+      ]
+    },
+    {
+      "id": "foot_rc",
+      "pins": [
+        "r42.1",
+        "r46.2",
+        "c30.2",
+        "c32.2",
+        "c33.1"
+      ]
+    },
+    {
+      "id": "foot_contact",
+      "pins": [
+        "r42.2"
+      ]
+    },
+    {
+      "id": "latch_base_left",
+      "pins": [
+        "r44.2",
+        "r45.1",
+        "c28.2",
+        "c30.1",
+        "q15.B"
+      ]
+    },
+    {
+      "id": "latch_base_right",
+      "pins": [
+        "r47.2",
+        "r48.1",
+        "c31.2",
+        "c32.1",
+        "q16.B"
+      ]
+    },
+    {
+      "id": "shape_bottom",
+      "pins": [
+        "r50.2",
+        "r51.1",
+        "c35.2"
+      ]
+    },
+    {
+      "id": "bypass_control",
+      "pins": [
+        "r52.2",
+        "c36.1",
+        "d6.2"
+      ]
+    },
+    {
+      "id": "level_wiper",
+      "pins": [
+        "c10.1",
+        "vr3.2"
+      ]
+    },
+    {
+      "id": "tone_high",
+      "pins": [
+        "c100.2",
+        "vr2.3"
+      ]
+    },
+    {
+      "id": "tone_low",
+      "pins": [
+        "c101.1",
+        "vr2.1"
+      ]
+    },
+    {
+      "id": "effect_gate_out",
+      "pins": [
+        "d4.1",
+        "q4.G"
+      ]
+    },
+    {
+      "id": "effect_gate_in",
+      "pins": [
+        "d5.1",
+        "q6.G"
+      ]
+    },
+    {
+      "id": "bypass_gate",
+      "pins": [
+        "d6.1",
+        "q8.G"
+      ]
+    },
+    {
+      "id": "clip_positive",
+      "pins": [
+        "d7.2",
+        "d8.1"
+      ]
+    },
+    {
+      "id": "clip_negative",
+      "pins": [
+        "d9.1",
+        "d10.2"
+      ]
+    },
+    {
+      "id": "tone_wiper",
+      "pins": [
+        "vr2.2",
+        "vr3.3"
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "id": "input",
+      "signalNet": "input",
+      "returnNet": "0"
+    },
+    {
+      "id": "output",
+      "signalNet": "output",
+      "returnNet": "0"
+    }
+  ],
+  "probes": [
+    {
+      "id": "input",
+      "net": "input",
+      "unit": "V"
+    },
+    {
+      "id": "output",
+      "net": "output",
+      "unit": "V"
+    },
+    {
+      "id": "gain1_out",
+      "net": "gain1_out",
+      "unit": "V"
+    },
+    {
+      "id": "gain2_out",
+      "net": "gain2_out",
+      "unit": "V"
+    },
+    {
+      "id": "clip",
+      "net": "clip",
+      "unit": "V"
+    },
+    {
+      "id": "v8",
+      "net": "v8",
+      "unit": "V"
+    },
+    {
+      "id": "vb",
+      "net": "vb",
+      "unit": "V"
+    },
+    {
+      "id": "latch_left",
+      "net": "latch_left",
+      "unit": "V"
+    },
+    {
+      "id": "latch_right",
+      "net": "latch_right",
+      "unit": "V"
+    }
+  ],
+  "verification": {
+    "topology": "원본 전사 · 독립 audit 대기",
+    "models": "데이터시트 시험 모델 · 미확인 파라미터 포함",
+    "hardware": "실물 음색 미검증"
+  }
+}

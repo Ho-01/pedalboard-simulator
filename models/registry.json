@@ -1,0 +1,142 @@
+[
+  {
+    "id": "D_1SS133_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "D1",
+      "D3",
+      "D4",
+      "D5",
+      "D6",
+      "D7",
+      "D8",
+      "D9",
+      "D10"
+    ]
+  },
+  {
+    "id": "D_LN28RP_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "LD1"
+    ]
+  },
+  {
+    "id": "D_RD56EB3_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "D11"
+    ]
+  },
+  {
+    "id": "D_S5688G_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "D2"
+    ]
+  },
+  {
+    "id": "J_2SK118Y_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "Q4",
+      "Q6",
+      "Q8"
+    ]
+  },
+  {
+    "id": "J_2SK184GR_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "Q10",
+      "Q11",
+      "Q13",
+      "Q14"
+    ]
+  },
+  {
+    "id": "M5218AL_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "IC1A",
+      "IC1B"
+    ]
+  },
+  {
+    "id": "Q_2SA1049GR_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "Q9",
+      "Q12"
+    ]
+  },
+  {
+    "id": "Q_2SC2458GR_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "Q2",
+      "Q15",
+      "Q16"
+    ]
+  },
+  {
+    "id": "Q_2SC2459GR_TEST",
+    "kind": "datasheet-parameterized research model",
+    "status": "datasheet-provisional",
+    "file": "models/bd2-test-models.spice",
+    "fitError": null,
+    "measured": false,
+    "sourceAndAssumptions": "models/README.md",
+    "usedBy": [
+      "Q1",
+      "Q3",
+      "Q5",
+      "Q7"
+    ]
+  }
+]

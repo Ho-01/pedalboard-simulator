@@ -38,3 +38,16 @@
 - [Vite 정적 배포 문서](https://vite.dev/guide/static-deploy.html): 빌드 산출물 제공
 
 서비스 전체 코드·사진·데모 음원을 자동으로 가져오지 않는다. 실제 사용한 자산의 출처만 구현 report와 이 문서에 남긴다.
+
+## 채택한 실물 사진
+
+- 파일: src/assets/bd2-top.jpg (Vite content hash asset로 배포)
+- URL: https://static.roland.com/assets/images/products/gallery/bd-2_top_gal.jpg
+- 취득일: 2026-10-08
+- 원본: 590 × 1050 px, 102909 bytes
+- SHA256: 7bf41a0b0c1a74ba2b2ace87cacca3b84e51860bdf901b16929826f0595fa1a1
+- 원형 마스크 (cx, cy, r px): LEVEL (162,135,82), GAIN (428,133,82), TONE (295,241,61), CHECK (294,64,13)
+- 원본 이미지를 그대로 두고 같은 사진의 노브 영역을 CSS로 회전한다. 지시선 전체를 마스크에 포함한다.
+- 공식 제품 nominal 73 × 129 × 59 mm와 화면의 사진 footprint는 분리한다. 현재 사진 전체를 폭 73 mm로 환산한 가상 배치 footprint 73 × 129.915 mm를 사용한다. 잭·여백 및 촬영 각도의 정밀 물리 치수 보정은 프레임 배치 후속 plan에서 다룬다. 현재 표시를 실제 프레임 fitting 결과라고 부르지 않는다.
+- 이 사진은 현재 제품 외형 자료이며 1995 회로 revision의 실물 사진임을 보장하지 않는다.
+- 이미지, 로고, 제품명은 원 제공자의 자료다. 출처를 앱에서 연결한다.

@@ -1,0 +1,11 @@
+{
+  "reference": "BOSS BD-2 Service Notes 1995 + errata 1996-12-03",
+  "url": "https://stompboxelectronics.com/wp-content/uploads/2023/01/BOSS-BD2_ServiceNotes.pdf",
+  "acquiredAt": "2026-10-08",
+  "sha256": "7cf6f049d7fb76ec7479a7eccc5253b3bcfbc993a48d092719bab4484ef24589",
+  "revision": "1995-errata1996-transcription-v1",
+  "status": "transcribed; independent audit pending",
+  "unresolved": ["Q3 part-list / schematic discrepancy", "exact A-taper curve", "unmeasured semiconductor parameters", "physical PCB pin ordering audit"],
+  "corrections": ["Q9/Q12: 2SA1049GR per errata"],
+  "pdfRedistributed": false
+}
