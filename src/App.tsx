@@ -1,0 +1,1 @@
+export function App() { return <main><small> PEDAL / LAB </small><h1>회로를 듣는 작업 공간</h1><p>Git과 원격 서버 배포 기반이 연결됐어요.</p><p>다음으로 BD-2의 부품과 배선을 계산하는 엔진을 검증하고 있어요.</p><a href="https://github.com/Ho-01/pedalboard-simulator/tree/feat/bd2-mvp/docs">개발 계획 보기 ↗</a></main>; }
