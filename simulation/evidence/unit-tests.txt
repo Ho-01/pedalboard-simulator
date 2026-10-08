@@ -1,0 +1,62 @@
+
+> pedalboard-simulator@0.1.0 test
+> node --import tsx --test tests/*.test.ts
+
+TAP version 13
+# Subtest: CircuitDocument validates all pin/net memberships and rejects a dangling pin
+ok 1 - CircuitDocument validates all pin/net memberships and rejects a dangling pin
+  ---
+  duration_ms: 11.03014
+  type: 'test'
+  ...
+# Subtest: custom component edits feed the same generator without mutating stock
+ok 2 - custom component edits feed the same generator without mutating stock
+  ---
+  duration_ms: 225.311913
+  type: 'test'
+  ...
+# Subtest: physical pot tapers, endpoints and dual-gang gain
+ok 3 - physical pot tapers, endpoints and dual-gang gain
+  ---
+  duration_ms: 2.426385
+  type: 'test'
+  ...
+# Subtest: bad or symmetric latch state is rejected even if solver exits successfully
+ok 4 - bad or symmetric latch state is rejected even if solver exits successfully
+  ---
+  duration_ms: 0.509926
+  type: 'test'
+  ...
+# Subtest: free world coordinates clamp and screen scaling is reversible
+ok 5 - free world coordinates clamp and screen scaling is reversible
+  ---
+  duration_ms: 2.721364
+  type: 'test'
+  ...
+# Subtest: FIR preserves passband and suppresses out-of-band energy before decimation
+ok 6 - FIR preserves passband and suppresses out-of-band energy before decimation
+  ---
+  duration_ms: 245.725961
+  type: 'test'
+  ...
+# Subtest: truncated/corrupt raw fails; generated guitar is finite, deterministic and voltage-scaled
+ok 7 - truncated/corrupt raw fails; generated guitar is finite, deterministic and voltage-scaled
+  ---
+  duration_ms: 10.970707
+  type: 'test'
+  ...
+# Subtest: PWL serialization preserves all sampled voltages and time knots across card boundaries
+ok 8 - PWL serialization preserves all sampled voltages and time knots across card boundaries
+  ---
+  duration_ms: 10.701235
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12003.190569

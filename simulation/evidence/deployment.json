@@ -1,0 +1,94 @@
+{
+  "generatedAt": "2026-10-08T06:36:19.414671+00:00",
+  "deployedCommit": "af03b8b6ef600a6035eda91c9174e12ae3468135",
+  "rollbackPreviousCommit": "eecf0b6a6ad59700e604556bdd8ca55dc0f20d47",
+  "rollbackObservedVersions": [
+    {
+      "commit": "eecf0b6a6ad59700e604556bdd8ca55dc0f20d47",
+      "dirty": false,
+      "builtAt": "2026-10-08T03:24:46.455Z"
+    },
+    {
+      "commit": "af03b8b6ef600a6035eda91c9174e12ae3468135",
+      "dirty": false,
+      "builtAt": "2026-10-08T06:32:10.166Z"
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://pedal.34-59-139-83.sslip.io/engine/bd821992e1af6f86249e/ngspice.mjs",
+      "status": 200,
+      "contentType": "application/javascript",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "bytes": 74441,
+      "sha256": "48d4d05a59b3c16b522e2dd6fef8d76fa874c4f03888f6644358c507afd484a3"
+    },
+    {
+      "url": "https://pedal.34-59-139-83.sslip.io/engine/bd821992e1af6f86249e/ngspice.wasm",
+      "status": 200,
+      "contentType": "application/wasm",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "bytes": 1533525,
+      "sha256": "0649bd2501b8d2af92f82988197250c6d9f41c919b633d4732b279b8d01af420"
+    }
+  ],
+  "servicesBefore": {
+    "generatedAt": "2026-10-08T06:25:45.523634+00:00",
+    "rows": [
+      {
+        "host": "34-59-139-83.sslip.io",
+        "httpStatus": "404",
+        "exitCode": 0
+      },
+      {
+        "host": "blog.34-59-139-83.sslip.io",
+        "httpStatus": "200",
+        "exitCode": 0
+      },
+      {
+        "host": "portfolio.34-59-139-83.sslip.io",
+        "httpStatus": "200",
+        "exitCode": 0
+      },
+      {
+        "host": "greatkingdom.34-59-139-83.sslip.io",
+        "httpStatus": "200",
+        "exitCode": 0
+      },
+      {
+        "host": "familiar.34-59-139-83.sslip.io",
+        "httpStatus": "200",
+        "exitCode": 0
+      }
+    ]
+  },
+  "servicesAfter": [
+    {
+      "host": "34-59-139-83.sslip.io",
+      "httpStatus": "404",
+      "exitCode": 0
+    },
+    {
+      "host": "blog.34-59-139-83.sslip.io",
+      "httpStatus": "200",
+      "exitCode": 0
+    },
+    {
+      "host": "portfolio.34-59-139-83.sslip.io",
+      "httpStatus": "200",
+      "exitCode": 0
+    },
+    {
+      "host": "greatkingdom.34-59-139-83.sslip.io",
+      "httpStatus": "200",
+      "exitCode": 0
+    },
+    {
+      "host": "familiar.34-59-139-83.sslip.io",
+      "httpStatus": "200",
+      "exitCode": 0
+    }
+  ],
+  "nginxTest": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful",
+  "certificateRenewalTimer": "active"
+}
