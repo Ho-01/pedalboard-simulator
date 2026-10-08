@@ -1,9 +1,11 @@
 # 구현 report
 
-현재는 plan 검토 단계이며, 완료된 구현 report는 없다.
+2026-10-08 승인된 세 plan의 1차 구현 기록이다. 회로 수치 검증과 실물 음색 검증을 구분하며 각 report의 잔여 항목을 함께 확인한다.
 
-구현 후 대응 plan과 같은 날짜·feature 이름으로 report를 작성한다. [report 양식](../templates/feature.report.md)을 사용한다.
+| plan | report |
+| --- | --- |
+| 실제 회로 시뮬레이션 | [회로 엔진·수치 검증](26-10-08.bd2-circuit-simulation.report.md) |
+| BD-2 화면·청취 | [Workspace·조절·청취](26-10-08.bd2-mvp.report.md) |
+| Git·배포 기반 | [GitHub·HTTPS·복구](26-10-08.repository-and-deployment.report.md) |
 
-- 계획과 일치: 요구사항 ID만 목록으로 적는다.
-- 차이·추가: 실제 내용, 변경 사유와 영향을 상세히 적는다.
-- 미수행: 통합 검증, FE 의존 작업, 사용자 청취 확인, 후속 plan을 명시한다.
+실제 시험 데이터는 `simulation/evidence/`에 있다. [report 양식](../templates/feature.report.md)은 이후 기능에서도 같은 방식으로 사용한다.

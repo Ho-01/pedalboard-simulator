@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-10-08T05:34:48.554Z",
+  "platform": "linux",
+  "arch": "x64",
+  "rows": [
+    {
+      "on": false,
+      "points": 2827885,
+      "nativeMs": 91322.99028000001,
+      "rawBytes": 113115738,
+      "cacheHit": false,
+      "rms": 0.010339511152655804,
+      "peak": 0.07984762638807297
+    },
+    {
+      "on": true,
+      "points": 3219103,
+      "nativeMs": 131772.66979999997,
+      "rawBytes": 128764458,
+      "cacheHit": false,
+      "rms": 0.1365767626693065,
+      "peak": 0.3545704185962677
+    }
+  ]
+}

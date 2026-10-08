@@ -22,3 +22,11 @@ NGSPICE_NATIVE=/path/to/native/ngspice npm run simulate:verify
 첫 계산에 필요한 회로 전사, 부품 모델, 노브 커브는 각각 testbench와 models의 상태를 따른다. 수치 일치와 실제 페달 음색 재현을 구분한다.
 
 클래식 소자 subset은 manifest의 deviceSubset에 기록한다. BSIM/HICUM/HiSIM 등 현대 집적 반도체 모델은 포함하지 않는다. 같은 subset을 native/WASM에 적용하며 기본 R/C/L, 독립/종속/behavioral source, diode, BJT, JFET, 기본 MOS, switch 및 전송선을 지원한다. 향후 다른 모델을 추가할 때 다시 빌드하고 별도 검증한다.
+
+## 2026-10-08 수치 검증
+
+`evidence/numerical.json`에 native/WASM의 부품 단위, DC·AC·transient, 150개 control matrix, time step refinement, 부품 수정 및 전체 8초 ON/OFF 결과가 있다. 전체 데모의 상대 RMS 오차는 OFF 3.71×10⁻⁹, ON 3.34×10⁻⁵로 기준 0.1% 이내다. ON 장시간 비선형 계산의 적응 시간점 수는 두 엔진에서 조금 달라질 수 있으며 같은 균일 PCM 시간축에서 비교한다.
+
+PWL 직렬화는 모든 입력 샘플을 보존하고 한 SPICE continuation에 최대 64개 쌍을 넣는다. 단조 시간점의 구간·breakpoint는 이진 검색하며 중복·역순 시간점은 원본 검색으로 처리한다. `evidence/pwl-regression.json`의 개선 전후 8개 native 시험은 시간·전압값이 bitwise 동일하다.
+
+WASM 메모리는 64 MiB에서 시작해 최대 1 GiB까지 늘어난다. 512 MiB는 8초 ON 결과 저장에 부족했으며 최종 기본 OFF/ON 시험의 heap은 476/571 MiB다. JS와 브라우저 자체 메모리는 추가로 필요하다. 계산 속도와 메모리는 실기기 환경에서 별도 확인해야 한다.

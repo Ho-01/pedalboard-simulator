@@ -1,0 +1,2102 @@
+[
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631273000197097,
+    "outputRmsV": 0.03329687733739888,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 0.00020870882760788828,
+    "outputRmsV": 0.000007075892069042433,
+    "outputPeakV": 0.00001347888792224694,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631274259552269,
+    "outputRmsV": 0.033296877337495256,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 9.667759009002001,
+    "outputRmsV": 0.16159697629993613,
+    "outputPeakV": 0.23319868743419647,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631281603581566,
+    "outputRmsV": 0.03329687733546245,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 0,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 65.98626737344819,
+    "outputRmsV": 1.0913501465751063,
+    "outputPeakV": 1.5660951137542725,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631272999944074,
+    "outputRmsV": 0.033296876922658813,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 0.0002073615418497104,
+    "outputRmsV": 0.0000070745460148030025,
+    "outputPeakV": 0.00001347899069514824,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631271820134127,
+    "outputRmsV": 0.03329687691250552,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 12.93249670468785,
+    "outputRmsV": 0.16201100023730347,
+    "outputPeakV": 0.23361150920391083,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631264913615942,
+    "outputRmsV": 0.03329687681105385,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 2.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 88.10639492894875,
+    "outputRmsV": 1.0944080182875564,
+    "outputPeakV": 1.5691927671432495,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631272999453666,
+    "outputRmsV": 0.033296875953894085,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 0.0002062344582812683,
+    "outputRmsV": 0.000007073066799814567,
+    "outputPeakV": 0.000013478957043844275,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631269415898207,
+    "outputRmsV": 0.03329687592080023,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 19.72766155046568,
+    "outputRmsV": 0.16314310762486442,
+    "outputPeakV": 0.2347419559955597,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631248522908164,
+    "outputRmsV": 0.033296875535109315,
+    "outputPeakV": 0.04809083789587021,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 134.24084573741288,
+    "outputRmsV": 1.1022863211939473,
+    "outputPeakV": 1.576905608177185,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631272998719132,
+    "outputRmsV": 0.033296874446526785,
+    "outputPeakV": 0.04809083417057991,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 0.00020525294388448276,
+    "outputRmsV": 0.000007071426136270325,
+    "outputPeakV": 0.000013478737855621148,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631266930752773,
+    "outputRmsV": 0.033296874417127635,
+    "outputPeakV": 0.04809083417057991,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 27.61503740213345,
+    "outputRmsV": 0.1649806612504889,
+    "outputPeakV": 0.23658333718776703,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631231478148847,
+    "outputRmsV": 0.03329687373883343,
+    "outputPeakV": 0.04809083417057991,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 7.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 187.9128220629459,
+    "outputRmsV": 1.1149079986257233,
+    "outputPeakV": 1.5892623662948608,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631272997722041,
+    "outputRmsV": 0.033296872344811476,
+    "outputPeakV": 0.04809083044528961,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 0.0002043559474196587,
+    "outputRmsV": 0.000007069586631595025,
+    "outputPeakV": 0.000013478267646860331,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631264241292059,
+    "outputRmsV": 0.033296872311000404,
+    "outputPeakV": 0.04809083044528961,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 36.13308255439531,
+    "outputRmsV": 0.1675042985602723,
+    "outputPeakV": 0.23912954330444336,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900823342,
+    "biasVb": 4.0818100095200975,
+    "acOutputRelativeRms": 0.6631212754741416,
+    "outputRmsV": 0.033296871135766765,
+    "outputPeakV": 0.04809083044528961,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 0,
+      "tone": 10,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605567845,
+    "biasVb": 4.0778868081885,
+    "acOutputRelativeRms": 246.25378424476608,
+    "outputRmsV": 1.132144366664683,
+    "outputPeakV": 1.606322169303894,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272790080892,
+    "outputRmsV": 0.033296827158372025,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 0.0002991453769068466,
+    "outputRmsV": 0.000011060340745893362,
+    "outputPeakV": 0.0000226839110837318,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631274212985367,
+    "outputRmsV": 0.03329682715622422,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 13.519733315786539,
+    "outputRmsV": 0.21050245386316008,
+    "outputPeakV": 0.3270008862018585,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631282510837916,
+    "outputRmsV": 0.033296827164823996,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 0,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 92.20828468898875,
+    "outputRmsV": 1.4323749757901632,
+    "outputPeakV": 2.191803216934204,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272789794364,
+    "outputRmsV": 0.0332968268015773,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 0.0002976907791443455,
+    "outputRmsV": 0.000011058769366146665,
+    "outputPeakV": 0.00002268523894599639,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272202950336,
+    "outputRmsV": 0.03329682679720945,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 16.823975467416524,
+    "outputRmsV": 0.21105815430796043,
+    "outputPeakV": 0.32747548818588257,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631268742930309,
+    "outputRmsV": 0.033296826710449486,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 2.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 114.55784182085515,
+    "outputRmsV": 1.4364957167522405,
+    "outputPeakV": 2.1951048374176025,
+    "points": 8670
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272789238163,
+    "outputRmsV": 0.0332968260251711,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 0.00029645954596732853,
+    "outputRmsV": 0.000011057190549056947,
+    "outputPeakV": 0.00002268663956783712,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631270223343017,
+    "outputRmsV": 0.033296826009631096,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 24.226108389107175,
+    "outputRmsV": 0.2127489098604093,
+    "outputPeakV": 0.3289105296134949,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631255236874347,
+    "outputRmsV": 0.0332968257027644,
+    "outputPeakV": 0.04809076711535454,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 164.79376538002893,
+    "outputRmsV": 1.448550855704868,
+    "outputPeakV": 2.2052507400512695,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272788404536,
+    "outputRmsV": 0.03329682466916219,
+    "outputPeakV": 0.04809076339006424,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 0.00029537109767992556,
+    "outputRmsV": 0.00001105555546328997,
+    "outputPeakV": 0.00002268810203531757,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.663126816977289,
+    "outputRmsV": 0.033296824625901694,
+    "outputPeakV": 0.04809076339006424,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 33.13059028190598,
+    "outputRmsV": 0.21554744345749435,
+    "outputPeakV": 0.3313780725002289,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631241134899689,
+    "outputRmsV": 0.033296824148390594,
+    "outputPeakV": 0.04809076339006424,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 7.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 225.348959604498,
+    "outputRmsV": 1.4684107867990077,
+    "outputPeakV": 2.223402500152588,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631272787272204,
+    "outputRmsV": 0.03329682293007725,
+    "outputPeakV": 0.04809076339006424,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 0.00029435723219695895,
+    "outputRmsV": 0.00001105385278986439,
+    "outputPeakV": 0.000022689637262374163,
+    "points": 8668
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631265930764619,
+    "outputRmsV": 0.0332968228905345,
+    "outputPeakV": 0.04809076339006424,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 42.86327158530475,
+    "outputRmsV": 0.21941940336193277,
+    "outputPeakV": 0.3350391387939453,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619008623344,
+    "biasVb": 4.08181000971506,
+    "acOutputRelativeRms": 0.6631225510431284,
+    "outputRmsV": 0.03329682188114847,
+    "outputPeakV": 0.04809075966477394,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 2.5,
+      "tone": 10,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772605951769,
+    "biasVb": 4.0778868083804625,
+    "acOutputRelativeRms": 291.9227892679,
+    "outputRmsV": 1.495887544368493,
+    "outputPeakV": 2.2515668869018555,
+    "points": 8669
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272525900181,
+    "outputRmsV": 0.03329678966925238,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 0.0005016146728371028,
+    "outputRmsV": 0.00002209338428119499,
+    "outputPeakV": 0.000045491055061575025,
+    "points": 8691
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631274133223748,
+    "outputRmsV": 0.03329678968108079,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 20.931516017709004,
+    "outputRmsV": 0.24926127638958367,
+    "outputPeakV": 0.39351317286491394,
+    "points": 8692
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631283506024807,
+    "outputRmsV": 0.03329678970512739,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 0,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 142.519537216996,
+    "outputRmsV": 1.706098109729604,
+    "outputPeakV": 2.624943733215332,
+    "points": 8690
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272525572428,
+    "outputRmsV": 0.033296789427495616,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 0.0005000633664128041,
+    "outputRmsV": 0.00002208887795704476,
+    "outputPeakV": 0.00004548548531602137,
+    "points": 8692
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272578960191,
+    "outputRmsV": 0.03329678942850637,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 24.007318353798684,
+    "outputRmsV": 0.24996704191790847,
+    "outputPeakV": 0.3937985301017761,
+    "points": 8691
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.663127283927602,
+    "outputRmsV": 0.03329678935982985,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 2.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 163.26516865446848,
+    "outputRmsV": 1.7113532280500867,
+    "outputPeakV": 2.627666473388672,
+    "points": 8690
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272524939107,
+    "outputRmsV": 0.033296788810776204,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 0.0004987168346083128,
+    "outputRmsV": 0.000022084744312124498,
+    "outputPeakV": 0.00004548056676867418,
+    "points": 8688
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631271050125433,
+    "outputRmsV": 0.033296788807127005,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 31.646261940300676,
+    "outputRmsV": 0.25231402362117444,
+    "outputPeakV": 0.39489173889160156,
+    "points": 8689
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631262394747566,
+    "outputRmsV": 0.03329678860931491,
+    "outputPeakV": 0.04809071496129036,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 215.08973257288733,
+    "outputRmsV": 1.7286170869809736,
+    "outputPeakV": 2.641767978668213,
+    "points": 8691
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272523991342,
+    "outputRmsV": 0.03329678785145657,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 0.0004974946142017092,
+    "outputRmsV": 0.000022080978603522275,
+    "outputPeakV": 0.0000454763721791096,
+    "points": 8687
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631269454737625,
+    "outputRmsV": 0.03329678784097115,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 41.42452249732254,
+    "outputRmsV": 0.2562533260189337,
+    "outputPeakV": 0.3973027169704437,
+    "points": 8690
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631251415958948,
+    "outputRmsV": 0.0332967874242429,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 7.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 281.54574599103586,
+    "outputRmsV": 1.7576733455658273,
+    "outputPeakV": 2.6742093563079834,
+    "points": 8690
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631272522704769,
+    "outputRmsV": 0.03329678654433402,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 0.0004963259029624719,
+    "outputRmsV": 0.000022077577900493314,
+    "outputPeakV": 0.000045472894271370023,
+    "points": 8687
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631267693986317,
+    "outputRmsV": 0.03329678651899745,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 52.40078479089962,
+    "outputRmsV": 0.26172535200460995,
+    "outputPeakV": 0.4020460844039917,
+    "points": 8695
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.16761900955063,
+    "biasVb": 4.081810010178703,
+    "acOutputRelativeRms": 0.6631239080327678,
+    "outputRmsV": 0.03329678577464358,
+    "outputPeakV": 0.04809071123600006,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 5,
+      "tone": 10,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772606864248,
+    "biasVb": 4.077886808836702,
+    "acOutputRelativeRms": 356.51564897309476,
+    "outputRmsV": 1.7980281002826868,
+    "outputPeakV": 2.7174108028411865,
+    "points": 8866
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631272262303001,
+    "outputRmsV": 0.033296771483504066,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 0.0009519347280270225,
+    "outputRmsV": 0.00004553623212343017,
+    "outputPeakV": 0.00009421569848200306,
+    "points": 8739
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631274025398793,
+    "outputRmsV": 0.03329677149066456,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 33.551093185069135,
+    "outputRmsV": 0.2766294432465827,
+    "outputPeakV": 0.4132035970687866,
+    "points": 8738
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631284305519878,
+    "outputRmsV": 0.03329677156422776,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 0,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 227.63968005090678,
+    "outputRmsV": 1.8975538314808544,
+    "outputPeakV": 2.71536922454834,
+    "points": 8843
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631272261937317,
+    "outputRmsV": 0.03329677127474707,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 0.00095042938325461,
+    "outputRmsV": 0.00004552181805037365,
+    "outputPeakV": 0.00009419023990631104,
+    "points": 8738
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631272820037765,
+    "outputRmsV": 0.03329677128671885,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 36.069337927763506,
+    "outputRmsV": 0.27750047696498775,
+    "outputPeakV": 0.4134044945240021,
+    "points": 8738
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631276012229013,
+    "outputRmsV": 0.033296771312344306,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 2.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 244.5808224511616,
+    "outputRmsV": 1.9039796541020644,
+    "outputPeakV": 2.7156691551208496,
+    "points": 8828
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.663127226123653,
+    "outputRmsV": 0.03329677081943905,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 0.0009490784998908946,
+    "outputRmsV": 0.00004550839369410798,
+    "outputPeakV": 0.00009416660759598017,
+    "points": 8737
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631271636341022,
+    "outputRmsV": 0.03329677082221711,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 43.03774001466637,
+    "outputRmsV": 0.2804902899452412,
+    "outputPeakV": 0.4145638644695282,
+    "points": 8738
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631267911188918,
+    "outputRmsV": 0.03329677075474767,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 291.8893356562998,
+    "outputRmsV": 1.9263811579115393,
+    "outputPeakV": 2.719149112701416,
+    "points": 8877
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631272260190852,
+    "outputRmsV": 0.033296770170257166,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 0.0009478145470306991,
+    "outputRmsV": 0.00004549599183484466,
+    "outputPeakV": 0.00009414493251824751,
+    "points": 8735
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631270391730414,
+    "outputRmsV": 0.033296770170365454,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 52.73026697837406,
+    "outputRmsV": 0.2855241201083874,
+    "outputPeakV": 0.4175446629524231,
+    "points": 8735
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631259322656927,
+    "outputRmsV": 0.033296769918864724,
+    "outputPeakV": 0.04809068888425827,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 7.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 357.7861320260492,
+    "outputRmsV": 1.9645529008694327,
+    "outputPeakV": 2.724841833114624,
+    "points": 8945
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631272258773477,
+    "outputRmsV": 0.03329676925325364,
+    "outputPeakV": 0.04809068515896797,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 0.0009465759620157786,
+    "outputRmsV": 0.00004548470258578644,
+    "outputPeakV": 0.00009412528743268922,
+    "points": 8736
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631268996996268,
+    "outputRmsV": 0.03329676924607412,
+    "outputPeakV": 0.04809068515896797,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 64.13961820314346,
+    "outputRmsV": 0.29251970977386693,
+    "outputPeakV": 0.42578965425491333,
+    "points": 8754
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619011757573,
+    "biasVb": 4.081810011282175,
+    "acOutputRelativeRms": 0.6631249502837167,
+    "outputRmsV": 0.0332967688236112,
+    "outputPeakV": 0.04809068515896797,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 7.5,
+      "tone": 10,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772609036333,
+    "biasVb": 4.077886809922743,
+    "acOutputRelativeRms": 435.6680905984294,
+    "outputRmsV": 2.0118054141875112,
+    "outputPeakV": 2.7341835498809814,
+    "points": 9147
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272048503011,
+    "outputRmsV": 0.03329676510610695,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 0.001872034964895533,
+    "outputRmsV": 0.00006765718708078247,
+    "outputPeakV": 0.00014603343151975423,
+    "points": 8783
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631273913904845,
+    "outputRmsV": 0.03329676514092676,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 53.02122920172016,
+    "outputRmsV": 0.28878179594501785,
+    "outputPeakV": 0.425091952085495,
+    "points": 8789
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631284789463404,
+    "outputRmsV": 0.03329676539226438,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 0,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 357.46516249790204,
+    "outputRmsV": 1.9758192922468927,
+    "outputPeakV": 2.7217679023742676,
+    "points": 8831
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272048110816,
+    "outputRmsV": 0.03329676495795895,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 0.0018707459318912712,
+    "outputRmsV": 0.00006763493482623425,
+    "outputPeakV": 0.00014599080896005034,
+    "points": 8781
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272914962067,
+    "outputRmsV": 0.033296764995356255,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 54.87532774972459,
+    "outputRmsV": 0.2899818115440567,
+    "outputPeakV": 0.42528852820396423,
+    "points": 8787
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631277900014295,
+    "outputRmsV": 0.03329676516947937,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 2.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 369.9653802137511,
+    "outputRmsV": 1.9841471538151252,
+    "outputPeakV": 2.7221546173095703,
+    "points": 8823
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272047364791,
+    "outputRmsV": 0.03329676464994775,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 0.0018695510727242282,
+    "outputRmsV": 0.00006761356486385655,
+    "outputPeakV": 0.00014594996173400432,
+    "points": 8791
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631271935498589,
+    "outputRmsV": 0.03329676467798184,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 60.43950888902831,
+    "outputRmsV": 0.2935523042291639,
+    "outputPeakV": 0.4264475405216217,
+    "points": 8790
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631271185394043,
+    "outputRmsV": 0.033296764791963446,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 407.8854133818459,
+    "outputRmsV": 2.0102319580984633,
+    "outputPeakV": 2.724259614944458,
+    "points": 8821
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272046254568,
+    "outputRmsV": 0.03329676416277212,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 0.0018684022662311805,
+    "outputRmsV": 0.00006759321999435844,
+    "outputPeakV": 0.00014591120998375118,
+    "points": 8789
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631270898424301,
+    "outputRmsV": 0.0332967641970519,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 68.82006346053426,
+    "outputRmsV": 0.2993987609826624,
+    "outputPeakV": 0.4293774664402008,
+    "points": 8783
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631264010631781,
+    "outputRmsV": 0.03329676419213547,
+    "outputPeakV": 0.04809068143367767,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 7.5,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 465.0438552254244,
+    "outputRmsV": 2.054202499729032,
+    "outputPeakV": 2.7294275760650635,
+    "points": 8822
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 0,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631272044751823,
+    "outputRmsV": 0.033296763465407594,
+    "outputPeakV": 0.048090677708387375,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 0,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 0.001867254371883856,
+    "outputRmsV": 0.00006757383429686698,
+    "outputPeakV": 0.00014587421901524067,
+    "points": 8786
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 5,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.663126972013204,
+    "outputRmsV": 0.03329676348892186,
+    "outputPeakV": 0.048090677708387375,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 5,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 79.30812998897856,
+    "outputRmsV": 0.30742861900871504,
+    "outputPeakV": 0.43794190883636475,
+    "points": 8788
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 10,
+      "on": false
+    },
+    "biasV8": 8.167619017011583,
+    "biasVb": 4.0818100139091795,
+    "acOutputRelativeRms": 0.6631255677885344,
+    "outputRmsV": 0.03329676337652401,
+    "outputPeakV": 0.048090677708387375,
+    "points": 8651
+  },
+  {
+    "settings": {
+      "gain": 10,
+      "tone": 10,
+      "level": 10,
+      "on": true
+    },
+    "biasV8": 8.159772614207334,
+    "biasVb": 4.077886812508245,
+    "acOutputRelativeRms": 536.7829594542442,
+    "outputRmsV": 2.1135418036873754,
+    "outputPeakV": 2.7434911727905273,
+    "points": 9203
+  }
+]

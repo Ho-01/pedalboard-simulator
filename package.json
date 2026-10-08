@@ -13,7 +13,7 @@
     "build": "npm run typecheck && vite build && node scripts/version.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test:browser": "playwright test",
-    "simulate:verify": "node --import tsx scripts/simulation/verify.ts"
+    "simulate:verify": "node --import tsx scripts/verify-simulation.ts"
   },
   "dependencies": {
     "react": "19.3.0",

@@ -3,7 +3,50 @@
   "version": "47",
   "sourceCommit": "a80f6e3e95d51534905b1f23410a951802666656",
   "emscripten": "4.0.21",
-  "js": "/engine/pending/ngspice.mjs",
-  "wasm": "/engine/pending/ngspice.wasm",
-  "verification": "pending"
+  "emsdkCommit": "b44154299bdefe75ba287874bb63fc9806243771",
+  "js": "/engine/bd821992e1af6f86249e/ngspice.mjs",
+  "wasm": "/engine/bd821992e1af6f86249e/ngspice.wasm",
+  "sha256": {
+    "js": "48d4d05a59b3c16b522e2dd6fef8d76fa874c4f03888f6644358c507afd484a3",
+    "wasm": "0649bd2501b8d2af92f82988197250c6d9f41c919b633d4732b279b8d01af420"
+  },
+  "patchSha256": "bb276836c4d2ec650618bf4542a45e15af238106edae7eb8e8fa2651b9a5d0c0",
+  "pwlLookup": "binary search; upstream linear fallback for non-increasing knots",
+  "cflags": "-O3",
+  "memory": {
+    "initialBytes": 67108864,
+    "maximumBytes": 1073741824,
+    "stackBytes": 8388608
+  },
+  "deviceSubset": [
+    "asrc",
+    "bjt",
+    "cap",
+    "cccs",
+    "ccvs",
+    "csw",
+    "dio",
+    "ind",
+    "isrc",
+    "jfet",
+    "jfet2",
+    "ltra",
+    "mos1",
+    "mos2",
+    "mos3",
+    "mos6",
+    "mos9",
+    "res",
+    "sw",
+    "tra",
+    "urc",
+    "vccs",
+    "vcvs",
+    "vdmos",
+    "vsrc"
+  ],
+  "modelSha256": "b1f89e4281a4a40e3ba976aedca69f327f5a409fcad880a4dd0e708dfdebc081",
+  "circuitSha256": "21374009edbf37b553af28916bdc37b5f72eefe18dde6825370c13bc3daa0672",
+  "inputSourceSha256": "1478789d76f5699169ca11ec6db32eea40c5cc4d34b43da68d99d446cb247e06",
+  "verification": "see simulation/evidence; physical sound unverified"
 }

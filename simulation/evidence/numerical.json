@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-10-08T06:04:10.806Z",
+  "validationHost": {
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "node": "v24.19.0"
+  },
+  "nativeBinarySha256": "73ca54f13c89f41991b06ad5a4a83ad9b98f2f00de8381fba5b8720d1d5c871b",
+  "engine": {
+    "engine": "ngspice",
+    "version": "47",
+    "sourceCommit": "a80f6e3e95d51534905b1f23410a951802666656",
+    "emscripten": "4.0.21",
+    "emsdkCommit": "b44154299bdefe75ba287874bb63fc9806243771",
+    "js": "/engine/bd821992e1af6f86249e/ngspice.mjs",
+    "wasm": "/engine/bd821992e1af6f86249e/ngspice.wasm",
+    "sha256": {
+      "js": "48d4d05a59b3c16b522e2dd6fef8d76fa874c4f03888f6644358c507afd484a3",
+      "wasm": "0649bd2501b8d2af92f82988197250c6d9f41c919b633d4732b279b8d01af420"
+    },
+    "patchSha256": "bb276836c4d2ec650618bf4542a45e15af238106edae7eb8e8fa2651b9a5d0c0",
+    "pwlLookup": "binary search; upstream linear fallback for non-increasing knots",
+    "cflags": "-O3",
+    "memory": {
+      "initialBytes": 67108864,
+      "maximumBytes": 1073741824,
+      "stackBytes": 8388608
+    },
+    "deviceSubset": [
+      "asrc",
+      "bjt",
+      "cap",
+      "cccs",
+      "ccvs",
+      "csw",
+      "dio",
+      "ind",
+      "isrc",
+      "jfet",
+      "jfet2",
+      "ltra",
+      "mos1",
+      "mos2",
+      "mos3",
+      "mos6",
+      "mos9",
+      "res",
+      "sw",
+      "tra",
+      "urc",
+      "vccs",
+      "vcvs",
+      "vdmos",
+      "vsrc"
+    ],
+    "modelSha256": "b1f89e4281a4a40e3ba976aedca69f327f5a409fcad880a4dd0e708dfdebc081",
+    "circuitSha256": "21374009edbf37b553af28916bdc37b5f72eefe18dde6825370c13bc3daa0672",
+    "inputSourceSha256": "1478789d76f5699169ca11ec6db32eea40c5cc4d34b43da68d99d446cb247e06",
+    "verification": "see simulation/evidence; physical sound unverified"
+  },
+  "evidence": [
+    {
+      "name": "primitive-resistor-divider",
+      "volts": 0.5,
+      "nativeWasmMaxRms": 0
+    },
+    {
+      "name": "primitive-2sk184-idss",
+      "amps": 0.0042300445341605375,
+      "nativeWasmMaxRms": 1.615586989351913e-28
+    },
+    {
+      "name": "primitive-2sk118-idss",
+      "amps": 0.00208937649506169,
+      "nativeWasmMaxRms": 2.2204460007835937e-17
+    },
+    {
+      "name": "primitive-1ss133-forward",
+      "volts": 0.8640617737788059,
+      "currentAmps": 0.1,
+      "nativeWasmMaxRms": 0
+    },
+    {
+      "name": "primitive-2sc2458-hfe",
+      "hfe": 274.67473232523076,
+      "nativeWasmMaxRms": 8.110414699015856e-15
+    },
+    {
+      "name": "primitive-m5218-follower-bias",
+      "volts": 4.000499992014914,
+      "nativeWasmMaxRms": 5.487024707885531e-11
+    },
+    {
+      "name": "primitive-analytic-rc",
+      "engine": "native",
+      "maxComplexError": 1.7554167342883506e-16
+    },
+    {
+      "name": "primitive-analytic-rc",
+      "engine": "wasm",
+      "maxComplexError": 1.5700924586837752e-16
+    },
+    {
+      "name": "native-wasm-dc",
+      "on": false,
+      "maxAbsolute": 5.7924811613929705e-9,
+      "nativeMs": 6.233006999999986,
+      "wasmMs": 15.740842999999984,
+      "heapBytes": 67108864
+    },
+    {
+      "name": "native-wasm-ac",
+      "on": false,
+      "maxDb": 1.9518373653805848e-10,
+      "maxPhaseDegrees": 3.8767211663071066e-11,
+      "points": 91
+    },
+    {
+      "name": "native-wasm-transient",
+      "on": false,
+      "relativeRms": 1.6995326698332507e-9,
+      "nativePoints": 20171,
+      "wasmPoints": 20171
+    },
+    {
+      "name": "native-wasm-dc",
+      "on": true,
+      "maxAbsolute": 2.5500641598341645e-9,
+      "nativeMs": 7.038454999999885,
+      "wasmMs": 14.017790999999988,
+      "heapBytes": 67108864
+    },
+    {
+      "name": "native-wasm-ac",
+      "on": true,
+      "maxDb": 6.563019871843566e-11,
+      "maxPhaseDegrees": 5.32054400537163e-11,
+      "points": 91
+    },
+    {
+      "name": "native-wasm-transient",
+      "on": true,
+      "relativeRms": 7.6490162367125e-9,
+      "nativePoints": 20235,
+      "wasmPoints": 20235
+    },
+    {
+      "name": "native-dc-ac-transient-control-matrix",
+      "cases": 150,
+      "transientStimulus": "220Hz 50mV sine, 40ms",
+      "evidence": "simulation/evidence/control-matrix.json",
+      "limit": "8-second decay and all amplitudes not exhaustively tested for every combination"
+    },
+    {
+      "name": "service-test-stimulus",
+      "frequencyHz": 200,
+      "inputVpp": 0.005,
+      "points": 11135,
+      "comparison": "stimulus run only; scanned manual image is not a numeric golden fixture"
+    },
+    {
+      "name": "native-timestep-refinement",
+      "signal": "220Hz 50mV sine / knobs5 ON",
+      "relativeRms": 0.000030321640424203723
+    },
+    {
+      "name": "custom-component-path",
+      "component": "R9",
+      "before": 6800,
+      "after": 13600,
+      "relativeOutputChange": 0.2123384070877849
+    },
+    {
+      "name": "eight-second-demo",
+      "on": false,
+      "relativeRms": 3.7075742274658357e-9,
+      "nativeMs": 91322.99028000001,
+      "wasmMs": 113672.69952,
+      "heapBytes": 499122176,
+      "rawBytes": 113115738,
+      "points": 2827885,
+      "rms": 0.010339511152655804,
+      "peak": 0.07984762638807297
+    },
+    {
+      "name": "eight-second-demo",
+      "on": true,
+      "relativeRms": 0.00003336617120190397,
+      "nativeMs": 131772.66979999997,
+      "wasmMs": 156898.94563200002,
+      "heapBytes": 598999040,
+      "rawBytes": 128764458,
+      "points": 3219103,
+      "rms": 0.1365767626693065,
+      "peak": 0.3545704185962677
+    }
+  ],
+  "notPerformed": [
+    "independent schematic-to-netlist audit",
+    "measured semiconductor parameter fit",
+    "physical BD-2 A/B listening",
+    "all-amplitude long decay matrix",
+    "Safari/Edge integration"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-08T05:30:32.906Z",
+  "baselineSha256": "b03f5cc6aaf7f9aff17d6ab54e9ac466d2fbf92ba4c387382606f495be6500a0",
+  "optimizedSha256": "73ca54f13c89f41991b06ad5a4a83ad9b98f2f00de8381fba5b8720d1d5c871b",
+  "results": [
+    {
+      "name": "single-knot",
+      "points": 10568,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 20.657558999999992,
+      "optimizedMs": 17.488009999999974
+    },
+    {
+      "name": "boundaries-and-tail",
+      "points": 10577,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 16.199568999999997,
+      "optimizedMs": 17.33979199999999
+    },
+    {
+      "name": "dense-audio",
+      "points": 17771,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 40.872892999999976,
+      "optimizedMs": 27.990792
+    },
+    {
+      "name": "repeat-and-delay",
+      "points": 10584,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 17.183340000000044,
+      "optimizedMs": 17.467900000000043
+    },
+    {
+      "name": "duplicate-knots-upstream-fallback",
+      "points": 10574,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 16.777652999999987,
+      "optimizedMs": 19.33511599999997
+    },
+    {
+      "name": "reversed-knots-upstream-fallback",
+      "points": 10574,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 20.69205999999997,
+      "optimizedMs": 25.32711999999998
+    },
+    {
+      "name": "BD2-short-demo-off",
+      "points": 37063,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 1253.0170480000002,
+      "optimizedMs": 1192.1791190000001
+    },
+    {
+      "name": "BD2-short-demo-on",
+      "points": 38871,
+      "maxAbsolute": 0,
+      "bitwiseIdentical": true,
+      "baselineMs": 1436.3247740000002,
+      "optimizedMs": 1332.9160510000002
+    }
+  ]
+}

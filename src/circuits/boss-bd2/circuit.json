@@ -919,7 +919,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C1",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c2",
@@ -937,7 +937,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C2",
       "confidence": "transcribed",
-      "value": 4.7e-05
+      "value": 4.7e-5
     },
     {
       "id": "c3",
@@ -973,7 +973,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C4",
       "confidence": "transcribed",
-      "value": 4.7e-05
+      "value": 4.7e-5
     },
     {
       "id": "c5",
@@ -1009,7 +1009,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C6",
       "confidence": "transcribed",
-      "value": 2.2e-09
+      "value": 2.2e-9
     },
     {
       "id": "c7",
@@ -1027,7 +1027,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C7",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c8",
@@ -1045,7 +1045,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C8",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c9",
@@ -1063,7 +1063,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C9",
       "confidence": "transcribed",
-      "value": 5.6e-08
+      "value": 5.6e-8
     },
     {
       "id": "c10",
@@ -1081,7 +1081,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C10",
       "confidence": "transcribed",
-      "value": 4.7e-08
+      "value": 4.7e-8
     },
     {
       "id": "c11",
@@ -1099,7 +1099,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C11",
       "confidence": "transcribed",
-      "value": 4.7e-05
+      "value": 4.7e-5
     },
     {
       "id": "c12",
@@ -1117,7 +1117,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C12",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c13",
@@ -1135,7 +1135,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C13",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c14",
@@ -1153,7 +1153,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C14",
       "confidence": "transcribed",
-      "value": 4.7e-08
+      "value": 4.7e-8
     },
     {
       "id": "c15",
@@ -1171,7 +1171,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C15",
       "confidence": "transcribed",
-      "value": 1e-05
+      "value": 1e-5
     },
     {
       "id": "c16",
@@ -1189,7 +1189,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C16",
       "confidence": "transcribed",
-      "value": 5.6e-08
+      "value": 5.6e-8
     },
     {
       "id": "c17",
@@ -1207,7 +1207,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C17",
       "confidence": "transcribed",
-      "value": 5.6e-09
+      "value": 5.6e-9
     },
     {
       "id": "c18",
@@ -1225,7 +1225,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C18",
       "confidence": "transcribed",
-      "value": 1e-07
+      "value": 1e-7
     },
     {
       "id": "c19",
@@ -1243,7 +1243,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C19",
       "confidence": "transcribed",
-      "value": 5.6e-09
+      "value": 5.6e-9
     },
     {
       "id": "c20",
@@ -1297,7 +1297,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C22",
       "confidence": "transcribed",
-      "value": 1.5e-07
+      "value": 1.5e-7
     },
     {
       "id": "c23",
@@ -1333,7 +1333,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C24",
       "confidence": "transcribed",
-      "value": 1e-06
+      "value": 1e-6
     },
     {
       "id": "c25",
@@ -1387,7 +1387,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C27",
       "confidence": "transcribed",
-      "value": 2.2e-09
+      "value": 2.2e-9
     },
     {
       "id": "c28",
@@ -1423,7 +1423,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C29",
       "confidence": "transcribed",
-      "value": 4.7e-08
+      "value": 4.7e-8
     },
     {
       "id": "c30",
@@ -1495,7 +1495,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C33",
       "confidence": "transcribed",
-      "value": 1e-08
+      "value": 1e-8
     },
     {
       "id": "c34",
@@ -1513,7 +1513,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C34",
       "confidence": "transcribed",
-      "value": 1e-07
+      "value": 1e-7
     },
     {
       "id": "c35",
@@ -1531,7 +1531,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C35",
       "confidence": "transcribed",
-      "value": 4.7e-08
+      "value": 4.7e-8
     },
     {
       "id": "c36",
@@ -1549,7 +1549,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C36",
       "confidence": "transcribed",
-      "value": 4.7e-08
+      "value": 4.7e-8
     },
     {
       "id": "c100",
@@ -1567,7 +1567,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C100",
       "confidence": "transcribed",
-      "value": 1.8e-08
+      "value": 1.8e-8
     },
     {
       "id": "c101",
@@ -1585,7 +1585,7 @@
       ],
       "sourceRef": "boss-service-1995:p3:C101",
       "confidence": "transcribed",
-      "value": 1.8e-08
+      "value": 1.8e-8
     },
     {
       "id": "d1",
@@ -2364,25 +2364,15 @@
   "nets": [
     {
       "id": "output_ac",
-      "pins": [
-        "r1.1",
-        "r3.1",
-        "c1.2"
-      ]
+      "pins": ["r1.1", "r3.1", "c1.2"]
     },
     {
       "id": "output",
-      "pins": [
-        "r1.2"
-      ]
+      "pins": ["r1.2"]
     },
     {
       "id": "output_emitter",
-      "pins": [
-        "r2.1",
-        "c1.1",
-        "q1.E"
-      ]
+      "pins": ["r2.1", "c1.1", "q1.E"]
     },
     {
       "id": "0",
@@ -2424,12 +2414,7 @@
     },
     {
       "id": "reference_input",
-      "pins": [
-        "r4.1",
-        "r5.2",
-        "c2.1",
-        "ic1a.IN+"
-      ]
+      "pins": ["r4.1", "r5.2", "c2.1", "ic1a.IN+"]
     },
     {
       "id": "v8",
@@ -2457,28 +2442,15 @@
     },
     {
       "id": "v9",
-      "pins": [
-        "r6.1",
-        "c3.1",
-        "d2.2",
-        "q2.C"
-      ]
+      "pins": ["r6.1", "c3.1", "d2.2", "q2.C"]
     },
     {
       "id": "power_base",
-      "pins": [
-        "r6.2",
-        "c4.1",
-        "q2.B"
-      ]
+      "pins": ["r6.2", "c4.1", "q2.B"]
     },
     {
       "id": "output_base",
-      "pins": [
-        "r7.1",
-        "c8.2",
-        "q1.B"
-      ]
+      "pins": ["r7.1", "c8.2", "q1.B"]
     },
     {
       "id": "vb",
@@ -2502,152 +2474,75 @@
     },
     {
       "id": "output_mix",
-      "pins": [
-        "r8.1",
-        "c8.1",
-        "q4.S",
-        "q8.S"
-      ]
+      "pins": ["r8.1", "c8.1", "q4.S", "q8.S"]
     },
     {
       "id": "amp_minus",
-      "pins": [
-        "r9.1",
-        "c6.1",
-        "c9.2",
-        "d1.2",
-        "d3.1",
-        "ic1b.IN-"
-      ]
+      "pins": ["r9.1", "c6.1", "c9.2", "d1.2", "d3.1", "ic1b.IN-"]
     },
     {
       "id": "amp_out",
-      "pins": [
-        "r9.2",
-        "c6.2",
-        "c7.1",
-        "ic1b.OUT"
-      ]
+      "pins": ["r9.2", "c6.2", "c7.1", "ic1b.OUT"]
     },
     {
       "id": "eq_base",
-      "pins": [
-        "r10.1",
-        "c16.1",
-        "q7.B"
-      ]
+      "pins": ["r10.1", "c16.1", "q7.B"]
     },
     {
       "id": "effect_out",
-      "pins": [
-        "r11.1",
-        "c7.2",
-        "q4.D"
-      ]
+      "pins": ["r11.1", "c7.2", "q4.D"]
     },
     {
       "id": "bypass_buffer",
-      "pins": [
-        "r12.1",
-        "c12.1",
-        "q3.E"
-      ]
+      "pins": ["r12.1", "c12.1", "q3.E"]
     },
     {
       "id": "amp_plus",
-      "pins": [
-        "r13.1",
-        "c10.2",
-        "d1.1",
-        "d3.2",
-        "ic1b.IN+"
-      ]
+      "pins": ["r13.1", "c10.2", "d1.1", "d3.2", "ic1b.IN+"]
     },
     {
       "id": "bypass_in",
-      "pins": [
-        "r14.1",
-        "c12.2",
-        "q8.D"
-      ]
+      "pins": ["r14.1", "c12.2", "q8.D"]
     },
     {
       "id": "input_base",
-      "pins": [
-        "r15.1",
-        "c14.2",
-        "q5.B"
-      ]
+      "pins": ["r15.1", "c14.2", "q5.B"]
     },
     {
       "id": "bypass_base",
-      "pins": [
-        "r16.1",
-        "c13.2",
-        "q3.B"
-      ]
+      "pins": ["r16.1", "c13.2", "q3.B"]
     },
     {
       "id": "effect_in",
-      "pins": [
-        "r17.1",
-        "c15.2",
-        "q6.D"
-      ]
+      "pins": ["r17.1", "c15.2", "q6.D"]
     },
     {
       "id": "input_buffer",
-      "pins": [
-        "r18.1",
-        "c13.1",
-        "c15.1",
-        "q5.E"
-      ]
+      "pins": ["r18.1", "c13.1", "c15.1", "q5.E"]
     },
     {
       "id": "input",
-      "pins": [
-        "r19.1"
-      ]
+      "pins": ["r19.1"]
     },
     {
       "id": "input_coupling",
-      "pins": [
-        "r19.2",
-        "c14.1"
-      ]
+      "pins": ["r19.2", "c14.1"]
     },
     {
       "id": "post_buffer",
-      "pins": [
-        "r20.1",
-        "r21.2",
-        "q7.E"
-      ]
+      "pins": ["r20.1", "r21.2", "q7.E"]
     },
     {
       "id": "eq_middle",
-      "pins": [
-        "r21.1",
-        "c9.1",
-        "c16.2"
-      ]
+      "pins": ["r21.1", "c9.1", "c16.2"]
     },
     {
       "id": "effect_switched",
-      "pins": [
-        "r22.1",
-        "c18.1",
-        "q6.S"
-      ]
+      "pins": ["r22.1", "c18.1", "q6.S"]
     },
     {
       "id": "gain1_in",
-      "pins": [
-        "r23.1",
-        "c18.2",
-        "q10.G"
-      ]
+      "pins": ["r23.1", "c18.2", "q10.G"]
     },
     {
       "id": "gain2_out",
@@ -2664,67 +2559,35 @@
     },
     {
       "id": "tone_feed",
-      "pins": [
-        "r26.2",
-        "c17.2",
-        "c19.1",
-        "c100.1"
-      ]
+      "pins": ["r26.2", "c17.2", "c19.1", "c100.1"]
     },
     {
       "id": "gain2_feedback",
-      "pins": [
-        "r27.1",
-        "c24.1",
-        "c25.1",
-        "q13.G"
-      ]
+      "pins": ["r27.1", "c24.1", "c25.1", "q13.G"]
     },
     {
       "id": "gain2_pot",
-      "pins": [
-        "r27.2",
-        "vr1b.1"
-      ]
+      "pins": ["r27.2", "vr1b.1"]
     },
     {
       "id": "gain2_tail",
-      "pins": [
-        "r28.1",
-        "r34.2",
-        "q14.S"
-      ]
+      "pins": ["r28.1", "r34.2", "q14.S"]
     },
     {
       "id": "gain1_feedback",
-      "pins": [
-        "r29.1",
-        "c22.1",
-        "c23.1",
-        "q11.G"
-      ]
+      "pins": ["r29.1", "c22.1", "c23.1", "q11.G"]
     },
     {
       "id": "gain1_pot",
-      "pins": [
-        "r29.2",
-        "vr1a.1"
-      ]
+      "pins": ["r29.2", "vr1a.1"]
     },
     {
       "id": "gain1_tail",
-      "pins": [
-        "r30.1",
-        "r31.2",
-        "q10.S"
-      ]
+      "pins": ["r30.1", "r31.2", "q10.S"]
     },
     {
       "id": "gain1_source2",
-      "pins": [
-        "r31.1",
-        "q11.S"
-      ]
+      "pins": ["r31.1", "q11.S"]
     },
     {
       "id": "gain1_out",
@@ -2741,221 +2604,111 @@
     },
     {
       "id": "gain2_drain",
-      "pins": [
-        "r33.2",
-        "c20.1",
-        "q12.B",
-        "q14.D"
-      ]
+      "pins": ["r33.2", "c20.1", "q12.B", "q14.D"]
     },
     {
       "id": "gain2_source2",
-      "pins": [
-        "r34.1",
-        "q13.S"
-      ]
+      "pins": ["r34.1", "q13.S"]
     },
     {
       "id": "gain2_in",
-      "pins": [
-        "r35.1",
-        "c27.2",
-        "q14.G"
-      ]
+      "pins": ["r35.1", "c27.2", "q14.G"]
     },
     {
       "id": "shape_low",
-      "pins": [
-        "r36.2",
-        "c34.1",
-        "c35.1"
-      ]
+      "pins": ["r36.2", "c34.1", "c35.1"]
     },
     {
       "id": "shape_high",
-      "pins": [
-        "r37.1",
-        "c26.2"
-      ]
+      "pins": ["r37.1", "c26.2"]
     },
     {
       "id": "clip",
-      "pins": [
-        "r37.2",
-        "r50.1",
-        "c27.1",
-        "c34.2",
-        "d7.1",
-        "d9.2"
-      ]
+      "pins": ["r37.2", "r50.1", "c27.1", "c34.2", "d7.1", "d9.2"]
     },
     {
       "id": "gain1_drain",
-      "pins": [
-        "r38.2",
-        "c21.1",
-        "q9.B",
-        "q10.D"
-      ]
+      "pins": ["r38.2", "c21.1", "q9.B", "q10.D"]
     },
     {
       "id": "led_cathode",
-      "pins": [
-        "r39.1",
-        "ld1.2"
-      ]
+      "pins": ["r39.1", "ld1.2"]
     },
     {
       "id": "zener_cathode",
-      "pins": [
-        "r39.2",
-        "d11.2"
-      ]
+      "pins": ["r39.2", "d11.2"]
     },
     {
       "id": "latch_right",
-      "pins": [
-        "r40.2",
-        "r44.1",
-        "r52.1",
-        "c28.1",
-        "d11.1",
-        "q16.C"
-      ]
+      "pins": ["r40.2", "r44.1", "r52.1", "c28.1", "d11.1", "q16.C"]
     },
     {
       "id": "latch_left",
-      "pins": [
-        "r41.1",
-        "r43.2",
-        "r47.1",
-        "c31.1",
-        "q15.C"
-      ]
+      "pins": ["r41.1", "r43.2", "r47.1", "c31.1", "q15.C"]
     },
     {
       "id": "effect_control",
-      "pins": [
-        "r41.2",
-        "c29.1",
-        "d4.2",
-        "d5.2"
-      ]
+      "pins": ["r41.2", "c29.1", "d4.2", "d5.2"]
     },
     {
       "id": "foot_rc",
-      "pins": [
-        "r42.1",
-        "r46.2",
-        "c30.2",
-        "c32.2",
-        "c33.1"
-      ]
+      "pins": ["r42.1", "r46.2", "c30.2", "c32.2", "c33.1"]
     },
     {
       "id": "foot_contact",
-      "pins": [
-        "r42.2"
-      ]
+      "pins": ["r42.2"]
     },
     {
       "id": "latch_base_left",
-      "pins": [
-        "r44.2",
-        "r45.1",
-        "c28.2",
-        "c30.1",
-        "q15.B"
-      ]
+      "pins": ["r44.2", "r45.1", "c28.2", "c30.1", "q15.B"]
     },
     {
       "id": "latch_base_right",
-      "pins": [
-        "r47.2",
-        "r48.1",
-        "c31.2",
-        "c32.1",
-        "q16.B"
-      ]
+      "pins": ["r47.2", "r48.1", "c31.2", "c32.1", "q16.B"]
     },
     {
       "id": "shape_bottom",
-      "pins": [
-        "r50.2",
-        "r51.1",
-        "c35.2"
-      ]
+      "pins": ["r50.2", "r51.1", "c35.2"]
     },
     {
       "id": "bypass_control",
-      "pins": [
-        "r52.2",
-        "c36.1",
-        "d6.2"
-      ]
+      "pins": ["r52.2", "c36.1", "d6.2"]
     },
     {
       "id": "level_wiper",
-      "pins": [
-        "c10.1",
-        "vr3.2"
-      ]
+      "pins": ["c10.1", "vr3.2"]
     },
     {
       "id": "tone_high",
-      "pins": [
-        "c100.2",
-        "vr2.3"
-      ]
+      "pins": ["c100.2", "vr2.3"]
     },
     {
       "id": "tone_low",
-      "pins": [
-        "c101.1",
-        "vr2.1"
-      ]
+      "pins": ["c101.1", "vr2.1"]
     },
     {
       "id": "effect_gate_out",
-      "pins": [
-        "d4.1",
-        "q4.G"
-      ]
+      "pins": ["d4.1", "q4.G"]
     },
     {
       "id": "effect_gate_in",
-      "pins": [
-        "d5.1",
-        "q6.G"
-      ]
+      "pins": ["d5.1", "q6.G"]
     },
     {
       "id": "bypass_gate",
-      "pins": [
-        "d6.1",
-        "q8.G"
-      ]
+      "pins": ["d6.1", "q8.G"]
     },
     {
       "id": "clip_positive",
-      "pins": [
-        "d7.2",
-        "d8.1"
-      ]
+      "pins": ["d7.2", "d8.1"]
     },
     {
       "id": "clip_negative",
-      "pins": [
-        "d9.1",
-        "d10.2"
-      ]
+      "pins": ["d9.1", "d10.2"]
     },
     {
       "id": "tone_wiper",
-      "pins": [
-        "vr2.2",
-        "vr3.3"
-      ]
+      "pins": ["vr2.2", "vr3.3"]
     }
   ],
   "ports": [

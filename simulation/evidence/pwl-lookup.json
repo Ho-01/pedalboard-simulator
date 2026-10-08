@@ -1,0 +1,5 @@
+{
+  "lookupQueries": 800000,
+  "mismatches": 0,
+  "cases": "strict,duplicate,reversed,single knot; exact and adjacent knots; nonmonotone time queries"
+}

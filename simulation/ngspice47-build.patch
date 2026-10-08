@@ -1,0 +1,281 @@
+diff --git a/src/Makefile.am b/src/Makefile.am
+index 76dad79..cb6be79 100644
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -49,51 +49,25 @@ endif
+ DYNAMIC_DEVICELIBS =					\
+ 	spicelib/devices/asrc/libasrc.la		\
+ 	spicelib/devices/bjt/libbjt.la			\
+-	spicelib/devices/bsim1/libbsim1.la		\
+-	spicelib/devices/bsim2/libbsim2.la		\
+-	spicelib/devices/bsim3/libbsim3.la		\
+-	spicelib/devices/bsim3v0/libbsim3v0.la		\
+-	spicelib/devices/bsim3v1/libbsim3v1.la		\
+-	spicelib/devices/bsim3v32/libbsim3v32.la	\
+-	spicelib/devices/bsim4/libbsim4.la		\
+-	spicelib/devices/bsim4v5/libbsim4v5.la		\
+-	spicelib/devices/bsim4v6/libbsim4v6.la		\
+-	spicelib/devices/bsim4v7/libbsim4v7.la		\
+ 	spicelib/devices/cap/libcap.la			\
+-	spicelib/devices/bsim3soi_pd/libbsim3soipd.la	\
+-	spicelib/devices/bsim3soi_fd/libbsim3soifd.la	\
+-	spicelib/devices/bsim3soi_dd/libbsim3soidd.la	\
+-	spicelib/devices/bsimsoi/libbsim4soi.la		\
+ 	spicelib/devices/cccs/libcccs.la		\
+ 	spicelib/devices/ccvs/libccvs.la		\
+-	spicelib/devices/cpl/libcpl.la			\
+ 	spicelib/devices/csw/libcsw.la			\
+ 	spicelib/devices/dio/libdio.la			\
+ 	spicelib/devices/ind/libind.la			\
+ 	spicelib/devices/isrc/libisrc.la		\
+-	spicelib/devices/hfet1/libhfet.la		\
+-	spicelib/devices/hfet2/libhfet2.la		\
+-	spicelib/devices/hicum2/libhicum2.la		\
+-	spicelib/devices/hisim2/libhisim2.la		\
+-	spicelib/devices/hisimhv1/libhisimhv1.la	\
+-	spicelib/devices/hisimhv2/libhisimhv2.la	\
+ 	spicelib/devices/jfet/libjfet.la		\
+ 	spicelib/devices/jfet2/libjfet2.la		\
+ 	spicelib/devices/ltra/libltra.la		\
+-	spicelib/devices/mes/libmes.la			\
+-	spicelib/devices/mesa/libmesa.la		\
+ 	spicelib/devices/mos1/libmos1.la		\
+ 	spicelib/devices/mos2/libmos2.la		\
+ 	spicelib/devices/mos3/libmos3.la		\
+ 	spicelib/devices/mos6/libmos6.la		\
+ 	spicelib/devices/mos9/libmos9.la		\
+ 	spicelib/devices/res/libres.la			\
+-	spicelib/devices/soi3/libsoi3.la		\
+ 	spicelib/devices/sw/libsw.la			\
+-	spicelib/devices/txl/libtxl.la			\
+ 	spicelib/devices/tra/libtra.la			\
+ 	spicelib/devices/urc/liburc.la			\
+-	spicelib/devices/vbic/libvbic.la		\
+ 	spicelib/devices/vccs/libvccs.la		\
+ 	spicelib/devices/vcvs/libvcvs.la		\
+ 	spicelib/devices/vdmos/libvdmos.la		\
+diff --git a/src/spicelib/analysis/cktsopt.c b/src/spicelib/analysis/cktsopt.c
+index 816f603..8a1e60b 100644
+--- a/src/spicelib/analysis/cktsopt.c
++++ b/src/spicelib/analysis/cktsopt.c
+@@ -250,10 +250,6 @@ CKTsetOpt(CKTcircuit *ckt, JOB *anal, int opt, IFvalue *val)
+           fprintf(stderr, "WARNING - Rshunt option too small.  Ignored.\n");
+         }
+         break;
+-#else
+-    case OPT_ENH_RSHUNT:
+-        fprintf(stderr, "WARNING - Option Rshunt available only with XSPICE enabled.\n");
+-        break;
+ #endif
+ /* gtri - end - wbk - add new options */
+     default:
+diff --git a/src/spicelib/devices/Makefile.am b/src/spicelib/devices/Makefile.am
+index e0d678c..8f95b99 100644
+--- a/src/spicelib/devices/Makefile.am
++++ b/src/spicelib/devices/Makefile.am
+@@ -1,57 +1,6 @@
+ ## Process this file with automake to produce Makefile.in
+ 
+-SUBDIRS = \
+-	asrc	\
+-	bjt	\
+-	bsim1	\
+-	bsim2	\
+-	bsim3	\
+-	bsimsoi	\
+-	bsim4		\
+-	bsim4v5		\
+-	bsim4v6		\
+-	bsim4v7		\
+-	bsim3v0		\
+-	bsim3v1		\
+-	bsim3v32	\
+-	bsim3soi_pd	\
+-	bsim3soi_fd	\
+-	bsim3soi_dd	\
+-	cap	\
+-	cccs	\
+-	ccvs	\
+-	cpl	\
+-	csw	\
+-	dio	\
+-	ind	\
+-	isrc	\
+-	hfet1	\
+-	hfet2	\
+-	hicum2	\
+-	hisim2	\
+-	hisimhv1	\
+-	hisimhv2	\
+-	jfet	\
+-	jfet2	\
+-	ltra	\
+-	mes	\
+-	mesa	\
+-	mos1	\
+-	mos2	\
+-	mos3	\
+-	mos6	\
+-	mos9	\
+-	res	\
+-	soi3	\
+-	sw	\
+-	tra	\
+-	txl	\
+-	urc	\
+-	vbic	\
+-	vccs	\
+-	vcvs	\
+-	vdmos	\
+-	vsrc	
++SUBDIRS = asrc bjt cap cccs ccvs csw dio ind isrc jfet jfet2 ltra mos1 mos2 mos3 mos6 mos9 res sw tra urc vccs vcvs vdmos vsrc
+ 
+ if NDEV_WANTED
+ SUBDIRS += ndev
+diff --git a/src/spicelib/devices/dev.c b/src/spicelib/devices/dev.c
+index b351491..2c9d7e0 100644
+--- a/src/spicelib/devices/dev.c
++++ b/src/spicelib/devices/dev.c
+@@ -140,72 +140,34 @@ extern struct coreInfo_t  coreInfo; /* cmexport.c */
+ #endif
+ 
+ static SPICEdev *(*static_devices[])(void) = {
+-    /* URC device MUST precede both resistors and capacitors */
++    /* URC must precede R/C. Classic-device build; equations unchanged. */
+     get_urc_info,
+     get_asrc_info,
+     get_bjt_info,
+-    get_bsim1_info,
+-    get_bsim2_info,
+-    get_bsim3_info,
+-    get_bsim3v0_info,
+-    get_bsim3v1_info,
+-    get_bsim3v32_info,
+-    get_b4soi_info,
+-    get_bsim4_info,
+-    get_bsim4v5_info,
+-    get_bsim4v6_info,
+-    get_bsim4v7_info,
+-    get_b3soipd_info,
+-    get_b3soifd_info,
+-    get_b3soidd_info,
+     get_cap_info,
+     get_cccs_info,
+     get_ccvs_info,
+-    get_cpl_info,
+     get_csw_info,
+     get_dio_info,
+-    get_hfeta_info,
+-    get_hfet2_info,
+-    get_hicum_info,
+-    get_hsm2_info,
+-    get_hsmhv_info,
+-    get_hsmhv2_info,
+     get_ind_info,
+     get_mut_info,
+     get_isrc_info,
+     get_jfet_info,
+     get_jfet2_info,
+     get_ltra_info,
+-    get_mes_info,
+-    get_mesa_info,
+     get_mos1_info,
+     get_mos2_info,
+     get_mos3_info,
+     get_mos6_info,
+     get_mos9_info,
+     get_res_info,
+-    get_soi3_info,
+     get_sw_info,
+     get_tra_info,
+-    get_txl_info,
+-    get_vbic_info,
+     get_vccs_info,
+     get_vcvs_info,
+     get_vsrc_info,
+     get_vdmos_info,
+ 
+-#ifdef CIDER
+-    get_nbjt_info,
+-    get_nbjt2_info,
+-    get_numd_info,
+-    get_numd2_info,
+-    get_numos_info,
+-#endif
+-
+-#ifdef NDEV
+-    get_ndev_info,
+-#endif
+-
+ };
+ 
+ static int DEVNUM = NUMELEMS(static_devices);
+diff --git a/src/spicelib/devices/vsrc/vsrcacct.c b/src/spicelib/devices/vsrc/vsrcacct.c
+index 9e4aa40..9877853 100644
+--- a/src/spicelib/devices/vsrc/vsrcacct.c
++++ b/src/spicelib/devices/vsrc/vsrcacct.c
+@@ -205,7 +205,15 @@ VSRCaccept(CKTcircuit *ckt, GENmodel *inModel)
+ 
+                             atime = time + ckt->CKTminBreak;
+ 
+-                            for (i = 0;
++                            int low = 0, high = here->VSRCfunctionOrder / 2;
++                            while (here->VSRCpwlMonotone && low < high) {
++                                int mid = low + (high - low) / 2;
++                                if (here->VSRCcoeffs[2 * mid] <= atime)
++                                    low = mid + 1;
++                                else
++                                    high = mid;
++                            }
++                            for (i = 2 * low;
+                                  i < here->VSRCfunctionOrder;
+                                  i += 2) {
+                                 if (here->VSRCcoeffs[i] > atime) {
+diff --git a/src/spicelib/devices/vsrc/vsrcdefs.h b/src/spicelib/devices/vsrc/vsrcdefs.h
+index 60a25c4..632c105 100644
+--- a/src/spicelib/devices/vsrc/vsrcdefs.h
++++ b/src/spicelib/devices/vsrc/vsrcdefs.h
+@@ -49,6 +49,7 @@ typedef struct sVSRCinstance {
+ 
+     int VSRCfunctionType;   /* code number of function type for source */
+     int VSRCfunctionOrder;  /* order of the function for the source */
++    int VSRCpwlMonotone; /* Binary lookup is valid only for sorted knots. */
+     int VSRCrBreakpt;       /* pwl repeat breakpoint index */
+     double  VSRCbreak_time; /* time of most-recent breakpoint */
+     double *VSRCcoeffs; /* pointer to array of coefficients */
+diff --git a/src/spicelib/devices/vsrc/vsrcload.c b/src/spicelib/devices/vsrc/vsrcload.c
+index 1dee791..a29ffc8 100644
+--- a/src/spicelib/devices/vsrc/vsrcload.c
++++ b/src/spicelib/devices/vsrc/vsrcload.c
+@@ -358,7 +358,15 @@ VSRCload(GENmodel *inModel, CKTcircuit *ckt)
+                             }
+                         }
+ 
+-                        for (i = 2;  i < here->VSRCfunctionOrder; i += 2) {
++                        int low = 1, high = here->VSRCfunctionOrder / 2 - 1;
++                        while (here->VSRCpwlMonotone && low < high) {
++                            int mid = low + (high - low) / 2;
++                            if (here->VSRCcoeffs[2 * mid] < time)
++                                low = mid + 1;
++                            else
++                                high = mid;
++                        }
++                        for (i = 2 * low; i < here->VSRCfunctionOrder; i += 2) {
+                             itime = here->VSRCcoeffs[i];
+                             if (itime >= time) {
+                                 time -= here->VSRCcoeffs[i - 2];
+diff --git a/src/spicelib/devices/vsrc/vsrcpar.c b/src/spicelib/devices/vsrc/vsrcpar.c
+index 0b235d2..f77fdc8 100644
+--- a/src/spicelib/devices/vsrc/vsrcpar.c
++++ b/src/spicelib/devices/vsrc/vsrcpar.c
+@@ -111,8 +111,10 @@ VSRCparam(int param, IFvalue *value, GENinstance *inst, IFvalue *select)
+             here->VSRCfuncTGiven = TRUE;
+             copy_coeffs(here, value);
+ 
++            here->VSRCpwlMonotone = 1;
+             for (i=0; i<(here->VSRCfunctionOrder/2)-1; i++) {
+                   if (*(here->VSRCcoeffs+2*(i+1))<=*(here->VSRCcoeffs+2*i)) {
++                     here->VSRCpwlMonotone = 0;
+                      fprintf(stderr, "Warning : voltage source %s",
+                                                                here->VSRCname);
+                      fprintf(stderr, " has non-increasing PWL time points.\n");
