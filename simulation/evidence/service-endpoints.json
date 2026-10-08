@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-10-08T06:32:42.088Z",
+  "nativeBinarySha256": "73ca54f13c89f41991b06ad5a4a83ad9b98f2f00de8381fba5b8720d1d5c871b",
+  "source": "BOSS BD-2 service notes, February 1995, appendix page 4",
+  "stimulus": "200 Hz square, generator 5 mV p-p, 1 us edges; gain/level maximum",
+  "conditions": "9 V, 25 C, source 1 kOhm, load 1 MOhm",
+  "status": "Research models; figure comparison is qualitative, not measured hardware validation",
+  "rows": [
+    {
+      "settings": {
+        "gain": 10,
+        "level": 10,
+        "tone": 0,
+        "on": true
+      },
+      "peakV": 2.175514566697836,
+      "points": 24996,
+      "file": "simulation/evidence/service-tone-0.csv",
+      "branchCurrentsA": {
+        "i(b.xic1a.bdrive)": 0,
+        "i(b.xic1a.bmid)": -2.7755575615628914e-17,
+        "i(b.xic1b.bdrive)": 0,
+        "i(b.xic1b.bmid)": -2.7755575615628914e-17,
+        "i(vbattery)": -0.011197703356080169,
+        "i(vfoot)": 0,
+        "i(vsignal)": 0
+      },
+      "netlistSha256": "908b9526696ff16c8a394b7796c1f35b77166bc043bbc6b552492fd1f696b43a"
+    },
+    {
+      "settings": {
+        "gain": 10,
+        "level": 10,
+        "tone": 10,
+        "on": true
+      },
+      "peakV": 2.674816010373781,
+      "points": 28167,
+      "file": "simulation/evidence/service-tone-10.csv",
+      "branchCurrentsA": {
+        "i(b.xic1a.bdrive)": 0,
+        "i(b.xic1a.bmid)": -2.7755575615628914e-17,
+        "i(b.xic1b.bdrive)": 0,
+        "i(b.xic1b.bmid)": -2.7755575615628914e-17,
+        "i(vbattery)": -0.011197703356080169,
+        "i(vfoot)": 0,
+        "i(vsignal)": 0
+      },
+      "netlistSha256": "aa8668b1126299dd47e3e5653d860837fac73c75aa4c297473fc36c3ae58de4d"
+    }
+  ]
+}

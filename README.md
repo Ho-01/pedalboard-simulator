@@ -20,6 +20,8 @@ npm run dev
 
 페달을 추가한 뒤 드래그로 이동하고 숫자/슬라이더로 Gain, Tone, Level을 조절한다. 확대 사진의 풋스위치 또는 ON/OFF 버튼으로 상태를 바꾼다. 계산·재생은 8초 합성 기타 입력의 회로 응답을 먼저 구한 뒤 반복 재생한다. 최초 재생 전에는 무음이며 기본 monitor volume은 20%다.
 
+현재는 계산 후 재생 모드다. 검증용 Linux 환경에서 8초 데모의 WASM 계산에 OFF 약 114초, ON 약 157초가 걸렸고 실제 heap은 약 476/571 MiB였다. 브라우저·기기별 시간과 메모리는 달라진다. 노브 변경도 새 계산을 필요로 하며 연속 실시간 처리는 아직 구현하지 않았다.
+
 ## 구현
 
 React/TypeScript/Vite static app, Component/Pin/Net 기반 CircuitDocument, ngspice 47 native/WASM, Worker 계산, 192 kHz 최대 timestep + 보간/FIR + 48 kHz PCM, Web Audio playback을 사용한다. 사진은 BOSS 공식 실물 자료다. 작업 공간 좌표와 전기 연결은 분리돼 있다.

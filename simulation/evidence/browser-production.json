@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-08T06:52:45.842130+00:00",
+  "kind": "public Chrome UI integration; observations through CUA",
+  "url": "https://pedal.34-59-139-83.sslip.io/",
+  "validatedCodeCommit": "af03b8b6ef600a6035eda91c9174e12ae3468135",
+  "settings": {
+    "gain": 5,
+    "tone": 5,
+    "level": 5
+  },
+  "results": [
+    {
+      "on": false,
+      "renderedOutputPeakV": 0.08,
+      "status": "calculated waveform, applied OFF state and playing transport observed"
+    },
+    {
+      "on": true,
+      "renderedOutputPeakV": 0.355,
+      "status": "calculated waveform, applied ON state and playing transport observed"
+    }
+  ],
+  "checks": [
+    "fresh page initially silent; monitor 20 percent",
+    "OFF to ON request displays previous applied OFF plus pending state",
+    "GAIN changed to 2 then 3 during calculation, deletion clears pedal and waveform",
+    "re-add resets all controls to 5; final ON job applies correct state",
+    "gain1_out selection changes rendered waveform without a new calculation",
+    "pause succeeds after ON playback; output probe restored",
+    "no site console error or warning in final retained logs; no visible alert"
+  ],
+  "proof": "simulation/evidence/browser-production.jpg",
+  "notPerformed": [
+    "Worker-output/AudioBuffer sample-by-sample instrumentation not completed: latest GCP public-site attempt exceeded 500000 ms waiting for OFF result; local Chromium startup SIGSEGV",
+    "human listening and same-revision physical-pedal capture",
+    "Edge, Safari/iOS and mobile hardware engine-performance validation"
+  ],
+  "automaticAttempt": {
+    "exitCode": 1,
+    "phase": "wait for first OFF result",
+    "phaseTimeoutMs": 500000,
+    "processWallMs": 532381,
+    "record": "simulation/evidence/browser-circuit-attempt.txt"
+  }
+}

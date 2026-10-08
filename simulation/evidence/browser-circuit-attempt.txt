@@ -1,0 +1,41 @@
+
+> pedalboard-simulator@0.1.0 test:browser
+> playwright test tests/browser/circuit.spec.ts --timeout=1800000
+
+
+Running 1 test using 1 worker
+
+  ✘  1 tests/browser/circuit.spec.ts:7:1 › worker calculation, requested/applied state, cancellation and re-add (8.6m)
+
+
+  1) tests/browser/circuit.spec.ts:7:1 › worker calculation, requested/applied state, cancellation and re-add
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.applied-settings')
+    Expected substring: "BD-2 OFF"
+    Received string:    "처음 재생하거나 노브를 바꾸면 회로 응답을 계산해요. 계산에는 시간이 걸릴 수 있어요."
+    Timeout: 500000ms
+
+    Call log:
+      - Expect "toContainText" locator('.applied-settings') with timeout 500000ms
+      - waiting for locator('.applied-settings')
+        818 × locator resolved to <div class="applied-settings">…</div>
+            - unexpected value "처음 재생하거나 노브를 바꾸면 회로 응답을 계산해요. 계산에는 시간이 걸릴 수 있어요."
+
+
+      51 |   await page.getByRole("button", { name: "BD-2 추가하기" }).click();
+      52 |   await page.getByRole("button", { name: "계산 및 재생" }).click();
+    > 53 |   await expect(page.locator(".applied-settings")).toContainText("BD-2 OFF", {
+         |                                                   ^
+      54 |     timeout: 500000,
+      55 |   });
+      56 |   await expect(page.getByRole("button", { name: "일시정지" })).toBeVisible();
+        at /home/ho/pedalboard-simulator/tests/browser/circuit.spec.ts:53:51
+
+    Error Context: test-results/circuit-worker-calculation-ffbb7-ate-cancellation-and-re-add/error-context.md
+
+  Slow test file: tests/browser/circuit.spec.ts (8.6m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  1 failed
+    tests/browser/circuit.spec.ts:7:1 › worker calculation, requested/applied state, cancellation and re-add

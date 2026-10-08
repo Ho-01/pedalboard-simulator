@@ -30,3 +30,5 @@ NGSPICE_NATIVE=/path/to/native/ngspice npm run simulate:verify
 PWL 직렬화는 모든 입력 샘플을 보존하고 한 SPICE continuation에 최대 64개 쌍을 넣는다. 단조 시간점의 구간·breakpoint는 이진 검색하며 중복·역순 시간점은 원본 검색으로 처리한다. `evidence/pwl-regression.json`의 개선 전후 8개 native 시험은 시간·전압값이 bitwise 동일하다.
 
 WASM 메모리는 64 MiB에서 시작해 최대 1 GiB까지 늘어난다. 512 MiB는 8초 ON 결과 저장에 부족했으며 최종 기본 OFF/ON 시험의 heap은 476/571 MiB다. JS와 브라우저 자체 메모리는 추가로 필요하다. 계산 속도와 메모리는 실기기 환경에서 별도 확인해야 한다.
+
+서비스 부록의 200 Hz·5 mV p-p square, GAIN/LEVEL 최대·TONE 양 끝 시험은 `NGSPICE_NATIVE=/path/to/ngspice node --import tsx scripts/verify-service.ts`로 재현한다. CSV는 80–95 ms 구간의 실제 적응 시간점이며 `python3 scripts/plot-service.py`로 같은 전압·시간 축의 SVG를 만든다(검증용 Python 의존성: numpy, matplotlib). `service-endpoints.json`의 branch current는 DC 전압원 진단값이다. scan과의 형태 대조는 실물 capture나 정량 모델 fitting이 아니다.
