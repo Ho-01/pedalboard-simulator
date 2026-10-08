@@ -8,7 +8,10 @@ release="$root/releases/$sha"
 [[ -z "$(git -C "$repo" status --porcelain)" ]] || { echo 'Checkout must be clean' >&2; exit 1; }
 git -C "$repo" cat-file -e "$sha^{commit}"
 [[ ! -e "$release" ]] || { echo 'Release exists; activate using rollback.sh' >&2; exit 1; }
-build_dir=$(mktemp -d /tmp/pedal-build.XXXXXXXX)
+build_root=${PEDAL_BUILD_ROOT:-"$HOME/.cache/pedal-deploy"}
+mkdir -p "$build_root"
+build_dir=$(mktemp -d "$build_root/pedal-build.XXXXXXXX")
+export TMPDIR="$build_root"
 cleanup() { git -C "$repo" worktree remove --force "$build_dir" >/dev/null 2>&1 || true; }
 trap cleanup EXIT
 git -C "$repo" worktree add --detach "$build_dir" "$sha"
